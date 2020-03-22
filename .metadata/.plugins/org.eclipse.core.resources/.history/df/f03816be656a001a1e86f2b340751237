@@ -1,0 +1,14 @@
+package ch03;
+
+public class MemoryEx01 {
+	
+	int num = 10;
+	
+	void test() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

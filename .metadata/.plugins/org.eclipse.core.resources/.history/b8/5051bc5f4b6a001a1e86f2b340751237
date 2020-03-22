@@ -1,0 +1,7 @@
+package ch01;
+
+public class ConEx01 {
+	public static void main(String[] args) {
+		
+	}
+}

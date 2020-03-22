@@ -1,0 +1,12 @@
+package ch03;
+
+// 메소드(함수)는 메소드 (함수)안에 작성할 수 없다.
+
+public class MethodEx01 {
+	
+	// 전역공간
+	
+	public static void main(String[] args) {
+		
+	}
+}
