@@ -11174,3 +11174,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 16:22:50.165
 !MESSAGE executing callback sts4.classpath.CrnnPCAj SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-23 17:12:44.916
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 18:25:47.214
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CrnnPCAj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 18:25:47.216
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CrnnPCAj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 18:25:47.217
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-23 18:25:47.218
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CrnnPCAj => OK

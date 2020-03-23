@@ -1,9 +1,0 @@
-package array03;
-
-import java.util.Scanner;
-
-public class Test1 {
-	Scanner sc = new Scanner(System.in);
-	int num = sc.nextInt();
-	
-}
