@@ -1,0 +1,12 @@
+package ch03;
+
+class Data {
+
+}
+
+public class MethodEx02 {
+
+	public static void main(String[] args) {
+
+	}
+}

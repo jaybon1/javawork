@@ -1,0 +1,10 @@
+package array03;
+
+public class ArrayEx01 {
+	
+	public static void main(String[] args) {
+		for (int i = 0; i < args.length; i++) {
+			
+		}
+	}
+}
