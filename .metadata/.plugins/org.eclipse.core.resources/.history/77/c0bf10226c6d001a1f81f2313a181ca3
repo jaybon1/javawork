@@ -1,0 +1,27 @@
+package array03;
+
+import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
+public class ArrayEx06 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		String tempNum = num + ""; // 숫자에 문자열을 더하면 문자열이된다(묵시적 형변환)
+		String tempNum2[] = tempNum.split("");
+		System.out.println(tempNum2[0]);
+		System.out.println("길이 : " + tempNum2.length);
+
+		for (int i = tempNum2.length-2; i >=0; i--) {
+			if((tempNum2.length-1 - i)%3 == 0) {
+				tempNum2[i] = tempNum2[i] + ",";
+			}
+		}
+		
+		for (int i = 0; i < tempNum2.length; i++) {
+			System.out.print(tempNum2[i]);
+		}
+		
+	}
+}

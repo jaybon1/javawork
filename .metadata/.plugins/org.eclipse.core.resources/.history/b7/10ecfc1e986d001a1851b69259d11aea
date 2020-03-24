@@ -1,0 +1,28 @@
+package array03;
+
+public class StarEx02 {
+	
+	static void printStars(int i) {
+		for (int j = 0; j < 4; j++) {
+			if(i == 1) {
+				System.out.println("___");
+			}
+			if(i == 2) {
+				System.out.println("_");
+			}
+			if(i == 3) {
+				System.out.println("_");
+			}
+			if(i == 4) {
+				System.out.println("");
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("___"+"*"); // 공백 3 별 1
+		System.out.println("__"+"**"); // 공백 2 별 2
+		System.out.println("_"+"***"); // 공백 1 별 3
+		System.out.println(""+"****"); // 공백 0 별 4
+	}
+}

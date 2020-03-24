@@ -1,0 +1,15 @@
+package array03;
+
+public class Hi {
+
+	public static void main(String[] args) {
+		char arr[] = {'가','나','다','라','마'};
+		System.out.println(arr);
+		for(int i=arr.length;i>0;i--)
+		{
+			System.out.println(arr[i-i]);
+		}
+
+	}
+
+}

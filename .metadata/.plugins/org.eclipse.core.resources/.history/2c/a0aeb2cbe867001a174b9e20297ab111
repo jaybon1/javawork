@@ -1,7 +1,0 @@
-package ch02;
-
-public class HelloWorld {
-	public static void abc(String[] args) {
-		System.out.println("helloWorld");
-	}
-}
