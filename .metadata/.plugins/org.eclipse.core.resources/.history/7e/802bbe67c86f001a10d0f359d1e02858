@@ -1,0 +1,17 @@
+package ch04;
+
+
+// 상태와 행동
+public class Person {
+	
+	String name;
+	String job;
+	int age;
+	char gender;
+	String bloodType;
+	
+	// 생성자 - 초기화 용도
+	public Person() { // 함수와 비슷하게 생겼지만 첫글자가 대문자며 클래스이름과 같다.
+		
+	}
+}

@@ -1,0 +1,7 @@
+package ch04;
+
+public class RectApp {
+	public static void main(String[] args) {
+
+	}
+}

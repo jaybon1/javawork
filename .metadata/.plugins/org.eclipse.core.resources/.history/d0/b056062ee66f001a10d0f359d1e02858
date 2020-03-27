@@ -1,0 +1,15 @@
+package stars;
+
+class Zealot {
+
+}
+
+class Dragoon {
+
+}
+
+public class GameStart {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,24 @@
+package ch04;
+
+import java.util.Scanner;
+
+import org.w3c.dom.css.Rect;
+
+class Rectangle{
+	int width;
+	int height;
+	public int getArea() {
+		return width*height;
+	}
+}
+
+public class RectApp {
+	public static void main(String[] args) {
+		Rectangle rectangle = new Rectangle();
+		Scanner sc = new Scanner(System.in);
+		System.out.print(">> ");
+		rectangle.width = sc.nextInt();
+		rectangle.height = sc.nextInt();
+		
+	}
+}

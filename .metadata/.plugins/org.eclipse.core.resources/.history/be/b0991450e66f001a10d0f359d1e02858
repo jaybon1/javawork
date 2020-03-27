@@ -1,0 +1,19 @@
+package stars;
+
+class Zealot {
+	String name;
+	int hp;
+	int attack;
+}
+
+class Dragoon {
+	String name;
+	int hp;
+	int attack;
+}
+
+public class GameStart {
+	public static void main(String[] args) {
+
+	}
+}

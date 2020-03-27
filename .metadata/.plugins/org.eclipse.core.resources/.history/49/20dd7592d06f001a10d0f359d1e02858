@@ -1,0 +1,20 @@
+package ch04;
+
+class Rabbit {
+	String name;
+	int power;
+
+	public Rabbit(String name, int power) {
+		this.name = name;
+		this.power = power;
+	}
+
+}
+
+public class RabbitApp {
+	public static void main(String[] args) {
+		Rabbit r1 = new Rabbit("토끼", 20); // power 는 100이 max라고 가정
+		
+		
+	}
+}

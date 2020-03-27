@@ -1,0 +1,33 @@
+package stars;
+
+class Zealot {
+	String name;
+	int hp;
+	int attack;
+
+	public Zealot(String name, int hp, int attack) {
+		this.name = name;
+		this.hp = hp;
+		this.attack = attack;
+	}
+
+}
+
+class Dragoon {
+	String name;
+	int hp;
+	int attack;
+
+	public Dragoon(String name, int hp, int attack) {
+		this.name = name;
+		this.hp = hp;
+		this.attack = attack;
+	}
+
+}
+
+public class GameStart {
+	public static void main(String[] args) {
+
+	}
+}

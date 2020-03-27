@@ -1,0 +1,12 @@
+package ch04;
+
+class Rabbit {
+	String name;
+	int power;
+}
+
+public class RabbitApp {
+	public static void main(String[] args) {
+
+	}
+}

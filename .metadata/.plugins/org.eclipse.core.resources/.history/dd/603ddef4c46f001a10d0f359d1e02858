@@ -1,0 +1,11 @@
+package ch04;
+
+
+// 상태와 행동
+public class Person {
+	String name;
+	String job;
+	int age;
+	char gender;
+	char bloodType;
+}

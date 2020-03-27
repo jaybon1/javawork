@@ -1,0 +1,16 @@
+package ch04;
+
+class AirPlane {
+	String name;
+	String color;
+	
+	public AirPlane() {
+		// TODO Auto-generated constructor stub
+	}
+}
+
+public class ThisTestEx01 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,11 @@
+package ch04;
+
+class Rabbit {
+	
+}
+
+public class RabbitApp {
+	public static void main(String[] args) {
+
+	}
+}

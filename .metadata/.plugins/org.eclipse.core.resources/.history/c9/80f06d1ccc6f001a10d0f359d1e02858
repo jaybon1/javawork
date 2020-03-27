@@ -1,0 +1,11 @@
+package ch04;
+
+class AirPlane {
+
+}
+
+public class ThisTestEx01 {
+	public static void main(String[] args) {
+
+	}
+}
