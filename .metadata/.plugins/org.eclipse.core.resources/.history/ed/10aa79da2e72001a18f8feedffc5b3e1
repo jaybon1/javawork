@@ -1,0 +1,17 @@
+package ch05;
+
+class A {
+	void run() {
+		System.out.println("A ´Þ¸°´Ù.");
+	}
+}
+
+class B extends A {
+	
+}
+
+public class OverrideEx01 {
+	public static void main(String[] args) {
+
+	}
+}

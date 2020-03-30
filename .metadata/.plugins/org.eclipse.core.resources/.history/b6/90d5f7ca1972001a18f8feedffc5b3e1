@@ -1,0 +1,85 @@
+package dustmq;
+
+class Man {
+	String name;
+	int age;
+	String www;
+	static String mk;
+	static double my2 = 0.05;
+
+	public Man() {
+
+	}
+
+	public Man(String name, int age, String www) {
+		this.name = name;
+		this.age = age;
+		this.www = www;
+	}
+
+	void cmc() {
+		System.out.println("이름은 : " + name + "입니다");
+		System.out.println("나이는 : " + age + "입니다");
+		System.out.println("성격은 : " + www + "입니다");
+		System.out.println("----------------------");
+	}
+}
+
+class Dog extends Man {
+	Dog(String name, int age, String www) {
+		super(name, age, www);
+
+	}
+
+	void aaa() {
+		System.out.println("멍멍멍멍멍멍멍");
+	}
+}
+
+class cat extends Man {
+	cat(String name, int age, String www) {
+		super(name, age, www);
+
+	}
+
+	void bbb() {
+		System.out.println("야옹오옹오오오오오오오오오옹");
+	}
+}
+
+class Money {
+
+	int my;
+	double my3 = my + my * my2;
+
+	public Money(int my) {
+		this.my = my;
+
+		// my2는 스태틱으로 받을꺼니 적어야하나? ㅅㅂ
+
+	}
+
+	void kkk() {
+		// 여긴일부로 스태틱 영역으로사용
+		System.out.println("현재 가진돈은 :" + my + "입니다.");
+		System.out.println("현재 이율은 : " + my2 + "입니다");
+		System.out.println("현재 은행에 모인돈은 :" + my3 + "입니다");
+
+	}
+
+}
+
+public class Dldl {
+
+	public static void main(String[] args) {
+		Man tkfka = new Man("주인", 28, "그저그런성격");
+		Dog ajdajd = new Dog("제트", 2, "긍정적");
+		Cat didhd = new Cat("야옹이",5,"안됨 ㅅㅂ ㅠ")//여기도안되요
+		Money ehs = new Money(50000);//여기안되용
+
+		tkfka.cmc();
+		ajdajd.cmc();
+
+	}
+
+}
