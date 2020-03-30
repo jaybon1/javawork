@@ -1,0 +1,12 @@
+package stars1;
+
+abstract class ดใน่ {
+	abstract String getName();
+	abstract int getPrice();
+}
+
+public class Test1 {
+	public static void main(String[] args) {
+
+	}
+}
