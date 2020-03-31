@@ -1,7 +1,0 @@
-package array03;
-
-public class Test3 {
-	public static void main(String[] args) {
-		String aString = "123";
-	}
-}

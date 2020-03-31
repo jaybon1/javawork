@@ -1,0 +1,16 @@
+package stars1.protoss;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+// 어노테이션 - 컴파일러가 읽고 해당 내용을 코드를 띄우기전에 먼저 동작
+@AllArgsConstructor // 모든 힙 변수를 받는 생성자 자동생성
+@NoArgsConstructor // 디폴트 생성자 자동생성
+@Data // 게터와 세터 자동생성 @Getter @Setter 를 이용할 수도 있다.
+public class Zealot{
+	private String name;
+	private int hp;
+	private static int attack;
+}

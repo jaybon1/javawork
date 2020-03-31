@@ -1,0 +1,13 @@
+package ch05;
+
+abstract class Į {
+	abstract void kill{
+		
+	}
+}
+
+public class FoodEx03 {
+	public static void main(String[] args) {
+
+	}
+}

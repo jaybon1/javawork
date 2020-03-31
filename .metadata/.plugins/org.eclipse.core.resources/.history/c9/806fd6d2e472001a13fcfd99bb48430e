@@ -1,0 +1,28 @@
+package ch05;
+
+
+// 추상 클래스는 new 할 수 없다. 오브젝트가 아니기 때문.
+// 추상 클래스는 추상 메서드를 가질 수 있다.
+abstract class Food {
+	void eat() {
+
+	}
+}
+
+class 라면 extends Food {
+
+}
+
+class 불고기 extends Food {
+
+}
+
+class 갈비 extends Food {
+
+}
+
+public class FoodEx01 {
+	public static void main(String[] args) {
+
+	}
+}

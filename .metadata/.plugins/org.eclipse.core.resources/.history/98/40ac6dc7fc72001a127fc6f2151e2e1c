@@ -1,0 +1,14 @@
+package stars1.terran;
+
+public class Marine{
+	private String name;
+	private int hp;
+	public static int attack = 5;
+	
+	public Marine(String name) {
+		this.name = name;
+		this.hp = 100;
+		this.sh = 100;
+		
+	}
+}

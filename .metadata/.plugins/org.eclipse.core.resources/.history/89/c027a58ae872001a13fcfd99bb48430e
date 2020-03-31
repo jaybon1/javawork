@@ -1,0 +1,24 @@
+package ch05;
+
+abstract class Food {
+	
+	void eat() {
+		System.out.println("음식을 먹습니다."); // 공통적인것은 사용
+	}
+	
+	abstract void cook(); // 공통적인데 오브젝트마다 조금씩 다르다면 추상메서드 사용
+}
+
+class 라면 {
+
+}
+
+class 삼겹살 {
+
+}
+
+public class FoodEx02 {
+	public static void main(String[] args) {
+
+	}
+}

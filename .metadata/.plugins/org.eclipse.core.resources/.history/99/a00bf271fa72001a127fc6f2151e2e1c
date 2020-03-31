@@ -1,0 +1,7 @@
+package stars1.zerg;
+
+public class Ultra{
+	private String name;
+	private int hp;
+	public static int attack;
+}

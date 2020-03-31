@@ -1,0 +1,21 @@
+package ch05;
+
+// ¾î´ðÅÍ
+abstract class Ä® {
+	abstract void kill();
+
+	abstract void cook();
+
+	abstract void repair();
+}
+
+
+abstract class ¿ä¸®»ç extends Ä® {
+
+}
+
+public class FoodEx03 {
+	public static void main(String[] args) {
+
+	}
+}

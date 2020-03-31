@@ -1,0 +1,13 @@
+package stars1;
+
+// 인터페이스는 추상 클래스와 유사
+// 다른점 : 추상 메서드만 존재가능
+// 동적 바인딩의 통로로만 사용
+
+public interface Behavior {
+	public void move();
+
+	public void repair();
+
+	public void attack();
+}

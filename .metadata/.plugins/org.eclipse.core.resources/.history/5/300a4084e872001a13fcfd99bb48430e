@@ -1,0 +1,24 @@
+package ch05;
+
+abstract class Food {
+	
+	void eat() {
+		System.out.println("À½½ÄÀ» ¸Ô½À´Ï´Ù.");
+	}
+	
+	abstract void cook();
+}
+
+class ¶ó¸é {
+
+}
+
+class »ï°ã»ì {
+
+}
+
+public class FoodEx02 {
+	public static void main(String[] args) {
+
+	}
+}

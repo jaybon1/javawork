@@ -1,0 +1,16 @@
+package stars1.protoss;
+
+public abstract class Protoss {  // 몸체가 없는 것을 오버라이딩 할때는  implement 라고한다
+	
+	// 필수 메서드
+	abstract public String getNAME();
+
+	abstract public int getHp();
+
+	abstract public void setHp(int hp);
+
+	abstract public int getAttack();
+	
+	abstract public void setAttack(int attack);
+
+}

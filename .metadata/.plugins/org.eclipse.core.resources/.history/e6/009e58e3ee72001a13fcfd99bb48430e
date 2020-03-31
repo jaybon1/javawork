@@ -1,0 +1,23 @@
+package ch05;
+
+// 어댑터
+abstract class 칼 {
+	abstract void kill();
+
+	abstract void cook();
+
+	abstract void repair();
+}
+
+
+// 상속 받는 추상 클래스는 부모 클래스의 모든 클래스를 오버라이딩 할 필요가 없다.
+// 요리사 어댑터
+abstract class 요리사 extends 칼 {
+	
+}
+
+public class FoodEx03 {
+	public static void main(String[] args) {
+
+	}
+}

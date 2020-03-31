@@ -1,0 +1,12 @@
+package stars1.zerg;
+
+public class Hydra{
+	private String name;
+	private int hp;
+	public static int attack;
+	
+	public Hydra(String name) {
+		this.name = name;
+		this.hp = 100;
+	}
+}

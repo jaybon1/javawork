@@ -1,0 +1,21 @@
+package ch05;
+
+class Food {
+	void eat() {
+		System.out.println("À½½ÄÀ» ¸Ô½À´Ï´Ù.");
+	}
+}
+
+class ¶ó¸é {
+
+}
+
+class »ï°ã»ì {
+
+}
+
+public class FoodEx02 {
+	public static void main(String[] args) {
+
+	}
+}

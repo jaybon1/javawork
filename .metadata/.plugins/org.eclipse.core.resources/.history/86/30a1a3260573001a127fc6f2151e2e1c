@@ -1,0 +1,19 @@
+package stars1;
+
+import stars1.protoss.Protoss;
+import stars1.protoss.Zealot;
+
+public class StartGame {
+
+	public static void move(Behavior b) {
+		b.move();
+	}
+	
+	public static void attack(Behavior b1, Behavior b2) {
+		b.move();
+	}
+
+	public static void main(String[] args) {
+		Zealot z1 = new Zealot("Áú·µ1");
+	}
+}

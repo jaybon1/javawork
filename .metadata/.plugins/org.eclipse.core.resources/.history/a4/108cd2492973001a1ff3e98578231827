@@ -1,0 +1,17 @@
+package animal;
+
+
+
+interface 닌자{
+	void 마을이름();
+	
+	void 캐릭터이름();
+}
+
+
+
+public class Test1 {
+	public static void main(String[] args) {
+
+	}
+}

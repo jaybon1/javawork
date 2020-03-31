@@ -1,0 +1,8 @@
+package stars1.protoss;
+
+public class Dragoon extends Process{
+	private String name;
+	private int hp;
+	private int sh; // º¸È£¸·
+	private static int attack;
+}

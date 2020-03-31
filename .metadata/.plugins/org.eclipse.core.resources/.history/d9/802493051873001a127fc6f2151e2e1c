@@ -1,0 +1,16 @@
+package animal;
+
+// 인터페이스의 변수와 함수
+// 1. 변수 : public static final 생략
+// 2. 함수 : public abstract 생략
+// 3. 통로의 역할 - 동적 바인딩
+
+
+interface Cal{
+	int num = 10; // 인터페이스의 변수는 무조건 public static final 이다.
+}
+
+
+public class InterfaceEx01 {
+
+}

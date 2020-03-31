@@ -1,0 +1,8 @@
+package stars1.protoss;
+
+public class Zealot{
+	private String name;
+	private int hp;
+	private int sh;
+	private static int attack;
+}

@@ -1,0 +1,25 @@
+package ch05;
+
+abstract class Food {
+	void eat() {
+
+	}
+}
+
+class 라면 extends Food {
+
+}
+
+class 불고기 extends Food {
+
+}
+
+class 갈비 extends Food {
+
+}
+
+public class FoodEx01 {
+	public static void main(String[] args) {
+
+	}
+}

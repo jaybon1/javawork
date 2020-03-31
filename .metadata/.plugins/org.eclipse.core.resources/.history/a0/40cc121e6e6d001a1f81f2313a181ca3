@@ -1,9 +1,0 @@
-package array03;
-
-public class Test3 {
-	public static void main(String[] args) {
-		String a = "123";
-		a = a + "4";
-		System.out.println(a);
-	}
-}

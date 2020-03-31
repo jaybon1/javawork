@@ -7,11 +7,6 @@ abstract class Animal {  // abstract 는 추상 클래스, new로 호출하지 못함
 }
 
 
-// 추상 클래스를 상속 받을 때 오버라이드를 입력하지 않으면 클래스에 오류가 난다(강제성 부여)
-class Horse extends Animal {
-	
-}
-
 class Mouse extends Animal {
 
 	@Override

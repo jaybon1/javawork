@@ -1,0 +1,10 @@
+package stars1.zerg;
+
+import stars1.Behavior;
+import stars1.protoss.Dragoon;
+import stars1.protoss.Zealot;
+
+public abstract class Zerg implements Behavior{
+	
+
+}

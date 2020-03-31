@@ -1,0 +1,13 @@
+package animal;
+
+class Dog {
+
+}
+
+class Cat {
+
+}
+
+public class AnimalEx02 {
+
+}

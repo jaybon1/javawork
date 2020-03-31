@@ -1,0 +1,10 @@
+package animal;
+
+interface cal{
+	
+}
+
+
+public class InterfaceEx01 {
+
+}
