@@ -1,0 +1,16 @@
+package simple;
+
+public class While {
+	public static void main(String[] args) {
+		
+		// while
+		int i = 0;
+		while(i < 6) {
+			if(i == 1) {
+				continue;
+			}
+			System.out.println(i);
+		}
+		
+	}
+}

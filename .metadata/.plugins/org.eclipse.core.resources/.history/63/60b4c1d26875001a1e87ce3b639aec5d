@@ -1,0 +1,10 @@
+package coffeeshop.test;
+
+class Data{
+	Object data;
+}
+
+
+public class GenericEx01 {
+
+}

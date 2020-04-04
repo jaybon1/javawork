@@ -1,0 +1,5 @@
+package simple;
+
+public class DownUp {
+	static double 더블숫자 = 1.1321324654;
+}

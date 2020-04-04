@@ -1,0 +1,13 @@
+package simple;
+
+public class DownUp {
+	static double 더블숫자 = 1.1321324654;
+	
+	static int 인트숫자 = 132;
+	
+	static String 스트링글자 = "스크링글자";
+	
+	public static void main(String[] args) {
+		System.out.println((char)스트링글자);
+	}
+}

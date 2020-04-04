@@ -1,0 +1,49 @@
+package coffeeshop.test;
+
+class Aaa{
+	int a = 1;
+	String aa = "Áý"; // Áý / ÁýÁÖ¼Ò
+	
+}
+
+
+// ½Ì±ÛÅæ ÆÐÅÏ
+class ±¹¹ÎÀºÇàÅëÀå {
+	int µ· = 0;
+	
+	private static ±¹¹ÎÀºÇàÅëÀå ÅëÀå1  = new ±¹¹ÎÀºÇàÅëÀå();
+	
+	public static ±¹¹ÎÀºÇàÅëÀå getÅëÀå1() {
+		return ÅëÀå1;
+	}
+	
+	private ±¹¹ÎÀºÇàÅëÀå() {
+		
+	}
+}
+
+
+public class SingleTonEx01 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		±¹¹ÎÀºÇàÅëÀå d1 = ±¹¹ÎÀºÇàÅëÀå.getInstance();
+		±¹¹ÎÀºÇàÅëÀå d2 = ±¹¹ÎÀºÇàÅëÀå.getInstance();
+		System.out.println(d1.ÀÚ±Ý);
+		d1.ÅëÀå1 = 1000;
+		
+		System.out.println(d1.ÀÚ±Ý);
+		
+		d2.ÅëÀå1 = d2.ÅëÀå1 + 1000;
+		
+		System.out.println(d1.ÀÚ±Ý);
+	
+		
+		// d1 Àº  d2¿Í °°´Ù
+	}
+}
+
+
+//½Ì±ÛÅæÀº ÇØ´ç °´Ã¼°¡ ÇÁ·Î±×·¥ ¾È¿¡ µü 1°³ ÀÖ´Â °Í  

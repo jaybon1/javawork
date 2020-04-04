@@ -1,0 +1,19 @@
+package simple;
+
+public class Array {
+	
+	//배열 - 배열은 클래스 자료형은 아니지만 주소다
+	static int[] intArray = {0,1,2};
+	
+	
+	public static void main(String[] args) {
+		
+		// intArray를 출력하면 주소값이 나온다.
+		System.out.println(intArray);
+		
+		System.out.println(intArray[0]);
+		
+		System.out.println(intArray[3]);
+	}
+	
+}

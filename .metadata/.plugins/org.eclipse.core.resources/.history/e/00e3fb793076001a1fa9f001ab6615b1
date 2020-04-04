@@ -1,0 +1,19 @@
+package simple;
+
+public class SuperTest {
+	
+	private int test1;
+	
+	public SuperTest() {
+		this.test1 = 132;
+	}
+}
+
+class Thistest {
+	
+	private int test1;
+	
+	public SuperTest() {
+		this.test1 = 132;
+	}
+}

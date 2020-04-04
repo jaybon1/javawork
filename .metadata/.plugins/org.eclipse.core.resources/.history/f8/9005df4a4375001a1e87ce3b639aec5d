@@ -1,0 +1,9 @@
+package composite;
+
+import lombok.Data;
+
+@Data
+public class Coke {
+	private int price;
+	private String desc;
+}

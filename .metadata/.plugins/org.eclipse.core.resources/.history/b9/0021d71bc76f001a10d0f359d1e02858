@@ -1,7 +1,0 @@
-package ch04;
-
-public class PersonApp {
-	public static void main(String[] args) {
-		Person p1 = new Person();
-	}
-}

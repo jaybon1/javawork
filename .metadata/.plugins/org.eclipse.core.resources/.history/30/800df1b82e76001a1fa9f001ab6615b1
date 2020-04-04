@@ -1,0 +1,54 @@
+package simple;
+
+
+class Num{
+	// 변수의 선언
+	private int 숫자변수;
+	private int 숫자변수1;
+	private int 숫자변수2;
+	
+	
+	// 메서드(함수)의 선언
+	public void set숫자변수(int 숫자) {
+		숫자변수 = 숫자;
+	}
+	
+	public void set숫자변수(int 숫자, int 숫자1) {
+		숫자변수 = 숫자;
+		숫자변수1 = 숫자1;
+	}
+	
+	public void set숫자변수(int 숫자) {
+		숫자변수 = 숫자;
+	}
+	
+	public int get숫자변수() {
+		return 숫자변수;
+	}
+	
+	public void 숫자변수괴롭히기() {
+		숫자변수 = 숫자변수 * 10 / 5 + 1;
+	}
+}
+
+
+public class Method {
+	public static void main(String[] args) {
+		
+		Num test1 = new Num();
+		
+		// 숫자변수 세팅하기
+		test1.set숫자변수(12);
+		
+		// 숫자변수 받기
+		System.out.println(test1.get숫자변수());
+		
+		// 숫자변수를 내부에서 가공하기
+		test1.숫자변수괴롭히기();
+		
+		// 숫자변수 받기
+		System.out.println(test1.get숫자변수());
+		
+
+	}
+}

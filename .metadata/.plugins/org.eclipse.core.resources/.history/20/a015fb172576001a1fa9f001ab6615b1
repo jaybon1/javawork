@@ -1,0 +1,11 @@
+package simple;
+
+public class Var {
+	
+	//변수는 자료를 담는 상자다
+	
+	public static void main(String[] args) {
+		int 숫자상자 = 1;
+	}
+	
+}

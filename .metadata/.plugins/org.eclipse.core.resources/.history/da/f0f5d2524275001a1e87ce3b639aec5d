@@ -1,0 +1,7 @@
+package composite;
+
+public class ShrimpBurger {
+	public ShrimpBurger() {
+		super(3500, "쉬림프버거");
+	}
+}

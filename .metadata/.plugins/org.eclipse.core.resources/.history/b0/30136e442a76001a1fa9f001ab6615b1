@@ -1,0 +1,11 @@
+package simple;
+
+public class Array {
+	static int[] intArray = {3,};
+	
+	
+	public static void main(String[] args) {
+		System.out.println(intArray);
+	}
+	
+}

@@ -1,0 +1,17 @@
+package simple;
+
+public class Var {
+	
+	//변수는 자료를 담는 상자다
+	
+	public static void main(String[] args) {
+		int 숫자상자 = 1;
+		
+		char 글자상자 = '가';
+		
+		System.out.println(숫자상자);
+		System.out.println(글자상자);
+		
+	}
+	
+}

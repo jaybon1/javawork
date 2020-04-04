@@ -1,0 +1,28 @@
+package composite;
+
+public class LotteriaApp {
+	public static void main(String[] args) {
+		// 빅버거 세트
+		BigBurgerSet set1 = new BigBurgerSet();
+		
+		// 기본버거
+		Burger burger1 = new Burger();
+		
+		// 콜라
+		Coke coke1 = new Coke();
+		
+		
+		// BigBurgerSet
+		BigBurgerSet set2 = new BigBurgerSet(
+				new BigBurger(3000, "빅버거할인"),
+				new Coke(),
+				new FrenchFried()	
+				);
+		
+		BigBurgerSet set3 = new BigBurgerSet(
+				new BigBurger(2000, "빅버거할인"),
+				new Coke(),
+				new FrenchFried()
+				);
+	}
+}

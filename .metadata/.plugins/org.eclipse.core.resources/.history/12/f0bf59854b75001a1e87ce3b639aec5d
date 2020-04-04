@@ -1,0 +1,28 @@
+package composite;
+
+public class ShrimpBurgerSet {
+
+	// 콤포지션(중요) - 상속이 아닌 만들어 놓은 클래스를 가져오는 것
+	private ShrimpBurger shrimpBurger;
+	private Coke coke;
+	private FrenchFried frenchFried;
+
+	public ShrimpBurgerSet() {
+			this.shrimpBurger = new ShrimpBurger();
+			this.coke = new Coke();
+			this.frenchFried = new FrenchFried();
+			System.out.println("세트 가격은 " 
+			+ (shrimpBurger.getPrice() + coke.getPrice() + frenchFried.getPrice()) 
+			+ " 입니다.");
+		}
+
+	public ShrimpBurgerSet(BigBurger bigBurger, Coke coke, FrenchFried frenchFried) {
+			this.shrimpBurger = shrimpBurger;
+			this.coke = coke;
+			this.frenchFried = frenchFried;
+			System.out.println("할인 세트 가격은 " 
+			+ (bigBurger.getPrice() + coke.getPrice() + frenchFried.getPrice()) 
+			+ " 입니다.");
+		}
+
+}

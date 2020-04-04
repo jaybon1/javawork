@@ -1,0 +1,18 @@
+package coffeeshop;
+
+import java.util.ArrayList;
+
+// 책임 : 메뉴 선택
+public class Menu {
+	
+	// 메뉴 아이템들 (컬렉션)
+	private ArrayList<MenuItem> menuItems;
+	
+	
+	
+	
+	public MenuItem 메뉴선택() {
+		return null;
+	}
+	
+}

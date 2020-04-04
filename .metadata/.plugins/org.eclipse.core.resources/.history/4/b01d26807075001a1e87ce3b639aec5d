@@ -1,0 +1,9 @@
+package coffeeshop;
+
+// 책임 : 주문
+public class Comsumer {
+
+	public void 주문(String menuName, Menu menu, Barista barista) {
+		
+	}
+}

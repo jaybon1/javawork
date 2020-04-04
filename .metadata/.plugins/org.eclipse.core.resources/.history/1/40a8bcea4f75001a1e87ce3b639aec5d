@@ -1,0 +1,17 @@
+package composite;
+
+public class 라면 {
+	String item1;
+	String item2;
+	String item3;
+	
+	public 라면(String item1, String item2, String item3) {
+		this.item1 = item1;
+		this.item2 = item2;
+		this.item3 = item3;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

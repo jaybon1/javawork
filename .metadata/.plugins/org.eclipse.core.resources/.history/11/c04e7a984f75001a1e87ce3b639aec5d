@@ -1,0 +1,8 @@
+package composite;
+
+public class ¶ó¸é {
+	String item1;
+	String item2;
+	String item3;
+	
+}

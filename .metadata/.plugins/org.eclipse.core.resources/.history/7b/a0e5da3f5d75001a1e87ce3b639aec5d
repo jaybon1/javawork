@@ -1,0 +1,7 @@
+package coffeeshop;
+
+
+// 책임 : 커피제조
+public class Barista {
+
+}

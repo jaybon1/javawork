@@ -1,0 +1,16 @@
+package coffeeshop.test;
+
+class Data1 {
+	// 오브젝트는 받기는 쉬우나 받은뒤 사용하려면 캐스팅 해야하기 때문에 불편
+	Object data;
+}
+
+class Data <T> {
+	// 오브젝트는 받기는 쉬우나 받은뒤 사용하려면 캐스팅 해야하기 때문에 불편
+	T value;
+}
+
+
+public class GenericEx01 {
+
+}

@@ -1,0 +1,6 @@
+package coffeeshop;
+
+// 책임 : 메뉴 선택
+public class Menu {
+	
+}

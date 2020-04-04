@@ -1,0 +1,16 @@
+package simple;
+
+public class Method {
+	// 변수의 선언
+	private int 숫자변수;
+	
+	// 메서드(함수)의 선언
+	public void set숫자변수(int 숫자) {
+		숫자변수 = 숫자;
+	}
+	
+	public int get숫자변수() {
+		return 숫자변수;
+	}
+	
+}

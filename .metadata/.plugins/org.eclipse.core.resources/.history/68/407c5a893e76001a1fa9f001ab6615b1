@@ -1,0 +1,38 @@
+package simple;
+
+
+
+class SuperTest {
+	
+	public int test1;
+	
+	public SuperTest() {
+		this.test1 = 132;
+		System.out.println("슈퍼테스트");
+	}
+}
+
+public class ThisTest extends SuperTest {
+	
+	public int test2;
+	
+	public ThisTest() {
+		super();
+		this.test2 = 132;
+		System.out.println("디스테스트");
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		SuperTest a = new SuperTest();
+		
+		System.out.println(a.tes1);
+
+		System.out.println("------------");
+
+		SuperTest a1 = new ThisTest();
+		
+		
+	}
+}
