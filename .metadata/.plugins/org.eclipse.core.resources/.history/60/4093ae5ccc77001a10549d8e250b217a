@@ -1,0 +1,7 @@
+package gsontest;
+
+public class GsonEx02 {
+	public static void main(String[] args) {
+
+	}
+}

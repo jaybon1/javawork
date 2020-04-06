@@ -1,0 +1,10 @@
+package proTest;
+
+import pro.Pdata;
+
+public class Ptest extends Pdata {
+	public static void main(String[] args) {
+		Ptest p1 = new Ptest();
+		System.out.println(p1.num);
+	}
+}

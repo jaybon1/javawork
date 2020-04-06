@@ -1,0 +1,7 @@
+package proTest;
+
+public class Ptest {
+	public static void main(String[] args) {
+		
+	}
+}

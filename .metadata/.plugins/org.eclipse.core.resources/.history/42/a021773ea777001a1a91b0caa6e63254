@@ -1,0 +1,9 @@
+package ch08;
+
+
+// 스트림은(Byte) => 물의 흐름
+public class InputEx01 {
+	public static void main(String[] args) {
+
+	}
+}

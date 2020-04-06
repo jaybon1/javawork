@@ -1,0 +1,23 @@
+package ch08;
+
+import com.google.gson.Gson;
+
+class Family {
+	int 샵;
+	String 아버지;
+	String 어머니;
+}
+
+public class JsonEx01 {
+	public static void main(String[] args) {
+		Gson gson = new Gson();
+		// fromJson() 함수 : json(String) => java object
+		// toJson() 함수 : java object => json(String)
+		
+		
+		
+		String personJson = gson.toJson(new Person());
+		System.out.println(personJson);
+		
+	}
+}
