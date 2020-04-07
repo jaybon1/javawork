@@ -1,8 +1,0 @@
-package stars1.protoss;
-
-public class Dragoon extends Protoss{
-	private String name;
-	private int hp;
-	private int sh; // º¸È£¸·
-	public static int attack;
-}

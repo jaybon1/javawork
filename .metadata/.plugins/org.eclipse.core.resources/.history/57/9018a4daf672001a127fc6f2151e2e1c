@@ -1,7 +1,0 @@
-package stars1.terran;
-
-public class Marine{
-	private String name;
-	private int hp;
-	private static int attack;
-}

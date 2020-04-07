@@ -1,7 +1,0 @@
-package stars1.protoss;
-
-public abstract class Protoss {
-	public void move() {
-		System.out.println("¿Ãµø");
-	}
-}

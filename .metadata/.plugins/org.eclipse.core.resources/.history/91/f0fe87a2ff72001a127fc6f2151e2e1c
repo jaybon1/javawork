@@ -1,8 +1,0 @@
-package stars1;
-
-// 인터페이스는 추상 클래스와 유사
-// 다른점 : 추상 메서드만 존재가능
-
-public interface Behavior {
-	
-}

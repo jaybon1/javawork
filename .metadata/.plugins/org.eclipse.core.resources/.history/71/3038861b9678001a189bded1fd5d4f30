@@ -1,0 +1,195 @@
+package ch15;
+
+import java.util.List;
+
+public class Air {
+
+	private Response response;
+
+	public Response getResponse() {
+		return response;
+	}
+
+	public void setResponse(Response response) {
+		this.response = response;
+	}
+
+}
+
+class Body {
+
+	private Items items;
+	private Integer numOfRows;
+	private Integer pageNo;
+	private Integer totalCount;
+
+	public Items getItems() {
+		return items;
+	}
+
+	public void setItems(Items items) {
+		this.items = items;
+	}
+
+	public Integer getNumOfRows() {
+		return numOfRows;
+	}
+
+	public void setNumOfRows(Integer numOfRows) {
+		this.numOfRows = numOfRows;
+	}
+
+	public Integer getPageNo() {
+		return pageNo;
+	}
+
+	public void setPageNo(Integer pageNo) {
+		this.pageNo = pageNo;
+	}
+
+	public Integer getTotalCount() {
+		return totalCount;
+	}
+
+	public void setTotalCount(Integer totalCount) {
+		this.totalCount = totalCount;
+	}
+
+}
+
+class Header {
+
+	private String resultCode;
+	private String resultMsg;
+
+	public String getResultCode() {
+		return resultCode;
+	}
+
+	public void setResultCode(String resultCode) {
+		this.resultCode = resultCode;
+	}
+
+	public String getResultMsg() {
+		return resultMsg;
+	}
+
+	public void setResultMsg(String resultMsg) {
+		this.resultMsg = resultMsg;
+	}
+
+}
+
+class Item {
+
+	private String airlineNm;
+	private String arrAirportNm;
+	private Integer arrPlandTime;
+	private String depAirportNm;
+	private Integer depPlandTime;
+	private String vihicleId;
+	private Integer economyCharge;
+	private Integer prestigeCharge;
+
+	public String getAirlineNm() {
+		return airlineNm;
+	}
+
+	public void setAirlineNm(String airlineNm) {
+		this.airlineNm = airlineNm;
+	}
+
+	public String getArrAirportNm() {
+		return arrAirportNm;
+	}
+
+	public void setArrAirportNm(String arrAirportNm) {
+		this.arrAirportNm = arrAirportNm;
+	}
+
+	public Integer getArrPlandTime() {
+		return arrPlandTime;
+	}
+
+	public void setArrPlandTime(Integer arrPlandTime) {
+		this.arrPlandTime = arrPlandTime;
+	}
+
+	public String getDepAirportNm() {
+		return depAirportNm;
+	}
+
+	public void setDepAirportNm(String depAirportNm) {
+		this.depAirportNm = depAirportNm;
+	}
+
+	public Integer getDepPlandTime() {
+		return depPlandTime;
+	}
+
+	public void setDepPlandTime(Integer depPlandTime) {
+		this.depPlandTime = depPlandTime;
+	}
+
+	public String getVihicleId() {
+		return vihicleId;
+	}
+
+	public void setVihicleId(String vihicleId) {
+		this.vihicleId = vihicleId;
+	}
+
+	public Integer getEconomyCharge() {
+		return economyCharge;
+	}
+
+	public void setEconomyCharge(Integer economyCharge) {
+		this.economyCharge = economyCharge;
+	}
+
+	public Integer getPrestigeCharge() {
+		return prestigeCharge;
+	}
+
+	public void setPrestigeCharge(Integer prestigeCharge) {
+		this.prestigeCharge = prestigeCharge;
+	}
+
+}
+
+class Items {
+
+	private List<Item> item = null;
+
+	public List<Item> getItem() {
+		return item;
+	}
+
+	public void setItem(List<Item> item) {
+		this.item = item;
+	}
+
+}
+
+class Response {
+
+	private Header header;
+	private Body body;
+
+	public Header getHeader() {
+		return header;
+	}
+
+	public void setHeader(Header header) {
+		this.header = header;
+	}
+
+	public Body getBody() {
+		return body;
+	}
+
+	public void setBody(Body body) {
+		this.body = body;
+	}
+
+}

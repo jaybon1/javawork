@@ -1,7 +1,0 @@
-package stars1.zerg;
-
-public class Zealot{
-	private String name;
-	private int hp;
-	private static int attack;
-}

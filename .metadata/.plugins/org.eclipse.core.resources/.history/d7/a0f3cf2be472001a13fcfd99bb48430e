@@ -1,7 +1,0 @@
-package ch05;
-
-public class FoodEx01 {
-	public static void main(String[] args) {
-
-	}
-}

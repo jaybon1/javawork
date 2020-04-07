@@ -1,7 +1,0 @@
-package stars1.terran;
-
-public class Tank{
-	private String name;
-	private int hp;
-	public static int attack;
-}

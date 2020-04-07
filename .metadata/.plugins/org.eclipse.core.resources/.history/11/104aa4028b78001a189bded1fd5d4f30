@@ -1,0 +1,44 @@
+package ch15;
+
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class NetworkEx01 {
+	public static void main(String[] args) {
+
+		try {
+			// 1번 주소 객체 만들기
+			URL url = new URL("https://www.naver.com");
+
+			// 2번 스트림 연결
+			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			
+			// 3번 버퍼연결(문자열)
+			BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream(), "UTF-8"));
+			
+			// 팁
+			// 파일 작성기 인스턴스
+			// 생성하는 순간 html 파일이 생성된다
+			FileWriter fw = new FileWriter("C:\\utils\\test.html");
+			
+			// 
+			StringBuilder sb = new StringBuilder();
+			String input = "";
+
+			while ((input = br.readLine()) != null) {
+				System.out.println(input);
+				sb.append(input);
+			}
+
+			fw.write(sb.toString());
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}
