@@ -32,7 +32,7 @@ public class NetworkEx0201 {
 			System.out.println(sb.toString());
 
 			// gson을 이용하여 Air타입의 인스턴스 만들기
-			Gson gson = new Gson();
+			Gson gson = new Gson();		
 			
 			Air air1 = gson.fromJson(sb.toString(), Air.class);
 			

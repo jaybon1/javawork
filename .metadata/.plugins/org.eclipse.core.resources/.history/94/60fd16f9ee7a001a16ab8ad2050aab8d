@@ -1,0 +1,12 @@
+package mask;
+
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		String aa = a.next();
+		
+		System.out.println(aa);
+	}
+}

@@ -23,8 +23,6 @@ public class Person {
 		this.age = age;
 		this.gender = gender;
 		this.bloodType = bloodType;
-	
-	
 	}
-	
+
 }

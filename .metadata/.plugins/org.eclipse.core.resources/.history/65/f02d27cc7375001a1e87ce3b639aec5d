@@ -1,8 +1,0 @@
-package coffeeshop.test;
-
-public class SingleTonEx01 {
-
-	public static void main(String[] args) {
-		
-	}
-}

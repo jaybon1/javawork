@@ -1,0 +1,8 @@
+package ch15;
+
+import java.util.HashMap;
+
+public class FlightInfoService {
+	public static HashMap<String, String> airLineId = new HashMap<>();
+	public static HashMap<String, String> airPortId = new HashMap<>();
+}

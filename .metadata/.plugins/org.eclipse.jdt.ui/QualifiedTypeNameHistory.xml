@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="animal.Cal"/>
-<fullyQualifiedTypeName name="animal.Animal"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="ch05.칼"/>
-<fullyQualifiedTypeName name="ch05.FoodEx03"/>
-<fullyQualifiedTypeName name="stars1.StartGame"/>
-<fullyQualifiedTypeName name="composite.Burger"/>
-<fullyQualifiedTypeName name="composite.BigBurger"/>
-<fullyQualifiedTypeName name="composite.라면"/>
-<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-<fullyQualifiedTypeName name="coffeeshop.Comsumer"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="coffeeshop.test.Data"/>
 <fullyQualifiedTypeName name="K"/>
@@ -27,9 +16,7 @@
 <fullyQualifiedTypeName name="coffeeshop.Coffee"/>
 <fullyQualifiedTypeName name="coffeeshop.Menu"/>
 <fullyQualifiedTypeName name="coffeeshop.test.대통령"/>
-<fullyQualifiedTypeName name="lombok.Data"/>
 <fullyQualifiedTypeName name="simple.Num"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="array03.Test1"/>
 <fullyQualifiedTypeName name="simple.SuperTest"/>
 <fullyQualifiedTypeName name="simple.ThisTest"/>
@@ -38,11 +25,9 @@
 <fullyQualifiedTypeName name="java.io.Reader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="ch08.Person"/>
 <fullyQualifiedTypeName name="gsontest.Person"/>
 <fullyQualifiedTypeName name="gsontest.GsonEx02"/>
-<fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="gsontest.Cos"/>
 <fullyQualifiedTypeName name="ch08.Family"/>
 <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -54,10 +39,25 @@
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="ch15.Air"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="ch15.NetworkEx02"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.DigestMethodParameterSpec"/>
+<fullyQualifiedTypeName name="java.awt.image.AreaAveragingScaleFilter"/>
+<fullyQualifiedTypeName name="ch15.Item"/>
+<fullyQualifiedTypeName name="composite.라면1"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="ch15.FlightInfoService"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="airplane.FlightInfoService"/>
+<fullyQualifiedTypeName name="mask.MaskInfo"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="mask.Test2"/>
+<fullyQualifiedTypeName name="mask.Test3"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
 </qualifiedTypeNameHistroy>

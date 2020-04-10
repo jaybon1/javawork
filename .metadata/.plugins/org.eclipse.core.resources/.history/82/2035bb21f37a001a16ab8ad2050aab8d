@@ -1,0 +1,22 @@
+package mask;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		String test;
+		String sum = "";
+		while ((test = a.next()).equals("")) {
+			sum = sum + test;
+		}
+		System.out.println("빠져나옴");
+		
+//		if(aa.equals(" ")) {
+//			System.out.println("성공");
+//		} else {			
+//			System.out.println(aa);
+//		}
+	}
+}

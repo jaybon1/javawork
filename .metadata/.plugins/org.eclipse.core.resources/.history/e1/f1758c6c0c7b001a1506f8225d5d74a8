@@ -1,0 +1,12 @@
+package mask;
+
+public class Test2 {
+
+public String addr;
+public String code;
+public double lat;
+public double lng;
+public String name;
+public String type;
+
+}

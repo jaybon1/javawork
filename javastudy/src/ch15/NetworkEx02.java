@@ -41,7 +41,6 @@ public class NetworkEx02 {
 			Air air1 = gson.fromJson(sb.toString(), Air.class);
 			
 			
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();

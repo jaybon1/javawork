@@ -1,0 +1,28 @@
+package mask;
+
+class Test4{
+	public String name1 = "이병근";
+	private String name = "이병근";
+	
+	public String 당신이름이뭐요() {
+		return name;
+	}
+	
+}
+
+public class Test3 {
+	private int num; //선언
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Test4 t = new Test4();
+		
+		System.out.println(t.name1);
+		
+		System.out.println(t.당신이름이뭐요());
+		
+	}
+}

@@ -1,0 +1,7 @@
+package ch08;
+
+public class Str1 {
+	public static void main(String[] args) {
+		String[] aStrings = {"a","b"};
+	}
+}

@@ -1,0 +1,21 @@
+package ch15;
+
+import java.util.HashMap;
+
+public class FlightInfoService {
+	
+	// OOP와 상관없는 유틸적인 클래스라 객체지향 규칙을 안따라도 된다.
+	public static HashMap<String, String> airLineId = new HashMap<>();
+	public static HashMap<String, String> airPortId = new HashMap<>();
+	
+	public static void setAirLineId() {
+		airLineId.put("아시아나항공", "AAR");
+		//추가필요
+	}
+	
+	public static void setAirPortId() {
+		airLineId.put("무안", "NAARKJJ");
+		//추가필요
+	}
+	
+}

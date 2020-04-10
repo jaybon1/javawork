@@ -8,6 +8,10 @@ public class Var {
 	public static void main(String[] args) {
 
 		// 기본 자료형 변수는 int, char 등의 자료를 담는다
+		
+		String aa; //선언
+		aa = "1"; // 초기화
+		aa = "2"; // 변수값 변경
 
 		int 숫자집 = 1;
 

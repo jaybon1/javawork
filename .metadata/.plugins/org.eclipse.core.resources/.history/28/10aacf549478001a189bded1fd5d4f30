@@ -1,7 +1,0 @@
-package ch15;
-
-public class NetworkEx03 {
-	public static void main(String[] args) {
-		
-	}
-}
