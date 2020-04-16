@@ -1,0 +1,43 @@
+package ch13;
+
+interface Callback { // 함수를 매개변수에 넘기기 위해 어쩔수 없이 만든 인터페이스
+	void printmoney(int money);
+}
+
+class MoneyChange {
+	int money = 10000;
+
+	public void accept(Callback callback) {
+		// 은행에 인출요청을해서 2만원을 받을 예정 2초
+		new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					Thread.sleep(2000);
+					money = money + 20000;
+					callback.printmoney(money);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}).start();
+	}
+}
+
+public class ThreadEx03 {
+	public static void main(String[] args) {
+		MoneyChange mc = new MoneyChange();
+		mc.accept(new Callback() {
+
+			@Override
+			public void printmoney(int money) {
+				System.out.println("통장의 잔액은 : " + money);
+			}
+		});
+		for (int i = 1; i < 6; i++) {
+			System.out.println("메인쓰레드 : " + i);
+			Thread.sleep(500);
+		}
+	}
+}

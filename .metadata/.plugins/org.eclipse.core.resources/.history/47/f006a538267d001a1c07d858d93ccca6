@@ -1,0 +1,18 @@
+package ch13;
+
+class Car {
+	void run() {
+		System.out.println("자동차는 달린다");
+	}
+}
+
+public class AnomyEx03 {
+	
+	static void start(Car car) {
+		
+	}
+	
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,11 @@
+package ch13;
+
+interface Animal {
+	void move();
+}
+
+public class AnomyEx01 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,11 @@
+package ch13;
+
+interface Dog{
+	void sound();
+}
+
+public class AnomyEx02 {
+	public static void main(String[] args) {
+		
+	}
+}

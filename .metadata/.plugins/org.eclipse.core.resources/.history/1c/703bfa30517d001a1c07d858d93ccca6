@@ -1,0 +1,12 @@
+package ch13;
+
+class A {
+	int a = 10;
+}
+
+public class Test {
+	public static void main(String[] args) {
+		A test = new A();
+		System.out.println(new A().a);
+	}
+}

@@ -1,0 +1,14 @@
+package ch13;
+
+class DownloadThread implements Runnable{
+	@Override
+	public void run() {
+		
+	}
+}
+
+public class ThreadEx02 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,11 @@
+package ch13;
+
+class DownloadThread{
+	
+}
+
+public class ThreadEx02 {
+	public static void main(String[] args) {
+
+	}
+}

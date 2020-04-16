@@ -1,7 +1,0 @@
-package ch08;
-
-public class JsonEx01 {
-	public static void main(String[] args) {
-
-	}
-}

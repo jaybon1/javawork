@@ -1,0 +1,22 @@
+package ch15;
+
+import java.net.Socket;
+
+public class MySocketClient {
+	
+	Socket socket;
+	
+	public MySocketClient() throws Exception {
+		socket = new Socket("localhost", 15000); // 서버소켓의 accept() 함수를 호출
+		//"localhost" 또는 127.0.0.1 는 약속된 내용,
+	}
+	
+	public static void main(String[] args) {
+		try {
+			new MySocketClient();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

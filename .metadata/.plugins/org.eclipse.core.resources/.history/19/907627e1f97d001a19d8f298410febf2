@@ -1,0 +1,13 @@
+package ch15;
+
+class OuterClass {
+
+}
+
+class InnerClass {
+
+}
+
+public class InnerEx01 {
+
+}

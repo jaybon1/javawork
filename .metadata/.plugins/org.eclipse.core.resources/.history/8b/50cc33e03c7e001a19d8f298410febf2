@@ -1,0 +1,19 @@
+package ch02;
+
+class 우리집 {
+	String 집이름;
+	int 평수;
+	int 층수;
+	String 주소;
+	
+}
+
+public class Class1 {
+	public static void main(String[] args) {
+		
+		
+		우리집 a = new 우리집("한빛빌라", 24, 3, "부산시 금정구");
+
+		
+	}
+}

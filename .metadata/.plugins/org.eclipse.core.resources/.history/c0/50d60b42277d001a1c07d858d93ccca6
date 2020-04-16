@@ -1,0 +1,25 @@
+package ch13;
+
+abstract class Ani {
+	void sound();
+}
+
+class Cat extends Ani {
+	@Override
+	void sound() {
+		System.out.println("¾ß¿Ë");
+	}
+}
+
+class Bird extends Ani {
+	@Override
+	void sound() {
+		System.out.println("Â±Â±");
+	}
+}
+
+public class AnomyEx04 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,5 +1,0 @@
-package simple;
-
-public class SuperTest {
-	private int test1 = 132;
-}

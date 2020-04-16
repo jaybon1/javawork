@@ -1,9 +1,0 @@
-package ch08;
-
-import java.io.InputStream;
-
-public class InputEx02 {
-	//문자로 읽고 싶음
-	//한개 이상을 받고 싶음
-	InputStream inputStream = System.in
-}

@@ -1,0 +1,22 @@
+package ch13;
+
+class A {
+	int a = 10;
+}
+
+public class Test {
+	
+	static void sample(A a) {
+		System.out.println(a.a);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	A test = new A();
+	// Èü 
+	
+	System.out.println(new A().a);
+
+	}
+}

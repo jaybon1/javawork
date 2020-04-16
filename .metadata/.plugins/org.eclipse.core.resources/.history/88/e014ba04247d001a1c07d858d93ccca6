@@ -1,0 +1,12 @@
+package ch13;
+
+// 규약
+interface Animal {
+	void move(); // 추상메서드 
+}
+
+public class AnomyEx01 {
+	public static void main(String[] args) {
+		
+	}
+}

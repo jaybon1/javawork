@@ -1,0 +1,30 @@
+package ch15;
+
+import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+public class MySocketClient {
+	
+	Socket socket;
+	BufferedWriter bw;
+	
+	public MySocketClient() throws Exception {
+		socket = new Socket("localhost", 15000); // 서버소켓의 accept() 함수를 호출
+		//"localhost" 또는 127.0.0.1 는 약속된 내용
+		
+		BufferedWriter bw = BufferedWriter(new OutputStreamWriter(socket.getInputStream())));
+		
+		socket.close();
+	}
+	
+	public static void main(String[] args) {
+		try {
+			new MySocketClient();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

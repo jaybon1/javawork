@@ -19,8 +19,6 @@ public class Var {
 	
 
 		
-		
-		
 		// 참조 자료형 변수 String, ArrayList, 클래스타입, Integer, Character
 
 		// 레퍼런스 변수
@@ -28,9 +26,6 @@ public class Var {
 		// 참조 자료형 변수는 주소를 담는다. 주소를 찾아가면 집에 갈수 있다
 
 		String 중앙로7 = "집안의 물건";
-
-		
-		
 		
 		
 		System.out.println(숫자집);

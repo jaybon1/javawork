@@ -1,0 +1,27 @@
+package ch13;
+
+class MoneyChange{
+	int money = 10000;
+	
+	public void accept() {
+		// 은행에 인출요청을해서 2만원을 받을 예정 2초
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				try {
+					Thread.sleep(2000);
+					money = money + 20000;
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}).start();
+	}
+}
+
+public class ThreadEx03 {
+	public static void main(String[] args) {
+
+	}
+}

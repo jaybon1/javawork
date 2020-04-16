@@ -1,9 +1,0 @@
-package proTest;
-
-import pro.Pdata;
-
-public class Ptest {
-	public static void main(String[] args) {
-		Pdata p1 = new Pdata();
-	}
-}

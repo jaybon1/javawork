@@ -1,0 +1,27 @@
+package Chat;
+
+interface StarUnit {
+	int getSh();
+}
+
+class Protoss {
+	
+}
+
+class Zerg {
+	
+}
+
+class Ultra {
+	
+}
+
+class Zealot {
+	
+}
+
+public class FinallyEx01 {
+	public static void main(String[] args) {
+		
+	}
+}

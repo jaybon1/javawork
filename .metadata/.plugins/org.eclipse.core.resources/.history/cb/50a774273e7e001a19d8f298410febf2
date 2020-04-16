@@ -1,0 +1,45 @@
+package ch02;
+
+class 우리집 {
+	String 집이름;
+	int 평수;
+	int 층수;
+	String 주소;
+	
+	public 우리집(String 집이름, int 평수, int 층수, String 주소) {
+		this.집이름 = 집이름;
+		this.평수 = 평수;
+		this.층수 = 층수;
+		this.주소 = 주소;
+	}
+		
+	public 우리집() {
+		this(12, "ㅇ", 12, "ㅇ");
+	}
+	
+	/*public 우리집() {
+		집이름 = "ㅇ";
+		평수 = 45;
+		층수 = 40;
+		주소 = "ㅇㅇ";
+	}*/
+	
+	/*public 우리집() {
+		this.집이름 = "미광";
+		this.평수 = 450;
+		this.층수 = 16;
+		this.주소 = "영도";
+	}*/
+	
+}
+
+public class Class1 {
+	public static void main(String[] args) {
+		우리집 my = new 우리집();
+		
+		System.out.println(my.집이름);
+		System.out.println(my.평수);
+		System.out.println(my.층수);
+		System.out.println(my.주소);
+	}
+}

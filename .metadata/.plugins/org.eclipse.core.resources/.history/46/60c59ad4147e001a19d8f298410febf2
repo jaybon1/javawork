@@ -1,0 +1,35 @@
+package Chat;
+
+interface StarUnit {
+}
+
+abstract class Protoss implements StarUnit{
+	abstract int getSh();
+}
+
+abstract class Zerg implements StarUnit {}
+
+class Zealot extends Protoss {
+	int sh = 100;
+	
+	public int getSh() {
+		return sh;
+	}
+}
+
+class Ultra extends Zerg {
+	
+}
+
+
+
+public class FinallyEx01 {
+	
+	static void check(StarUnit unit) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

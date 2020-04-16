@@ -12,5 +12,6 @@ public class ConEx01 {
 		} else {
 			System.out.println("거짓입니다.");
 		}
+		
 	}
 }

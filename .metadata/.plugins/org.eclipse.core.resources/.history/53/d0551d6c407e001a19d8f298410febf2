@@ -1,0 +1,47 @@
+package ch02;
+
+class 우리집 {
+	String 집이름;
+	int 평수;
+	int 층수;
+	String 주소;
+	
+	// 뒤에 괄호가 다르고 앞에 이름이 같으면 오버로딩
+	public 우리집( int 평수, String 집이름, int 층수, String 주소) {
+		this.집이름 = 집이름;
+		this.평수 = 평수;
+		this.층수 = 층수;
+		this.주소 = 주소;
+	}
+	
+	public 우리집() {
+		this(10,"성수집",12,"몰라");
+	}
+	
+	public 우리집(int 평수, String 집이름) {
+		
+	}
+	
+	public String getName() {
+		return 집이름;
+	}
+	
+	public String getName(int 층수) {
+		if(this.층수 = 층수) {
+			return 집이름;
+		}
+		return null;
+		
+	}
+}
+
+public class Class1 {
+	public static void main(String[] args) {
+		우리집 my = new 우리집();
+		
+		System.out.println(my.집이름);
+		System.out.println(my.평수);
+		System.out.println(my.층수);
+		System.out.println(my.주소);
+	}
+}

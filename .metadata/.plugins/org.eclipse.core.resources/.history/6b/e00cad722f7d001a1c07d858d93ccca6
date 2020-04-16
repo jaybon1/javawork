@@ -1,0 +1,10 @@
+package ch13;
+
+public class ThreadEx01 {
+
+	
+	// 메인 쓰레드
+	public static void main(String[] args) {
+
+	}
+}

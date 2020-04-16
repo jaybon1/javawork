@@ -1,7 +1,0 @@
-package ch08;
-
-public class InputEx03 {
-	public static void main(String[] args) {
-
-	}
-}

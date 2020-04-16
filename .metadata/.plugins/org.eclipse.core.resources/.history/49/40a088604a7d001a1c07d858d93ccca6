@@ -1,0 +1,15 @@
+package ch13;
+
+class MoneyChange{
+	int money = 10000;
+	
+	public void accept() {
+		
+	}
+}
+
+public class ThreadEx03 {
+	public static void main(String[] args) {
+
+	}
+}
