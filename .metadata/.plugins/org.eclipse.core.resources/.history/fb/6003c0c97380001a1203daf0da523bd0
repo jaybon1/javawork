@@ -1,0 +1,20 @@
+package ch09;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class SwingEx01 extends JFrame { // JFrame을 상속하여 GUI 가져오기
+	
+	public SwingEx01() {
+		// TODO Auto-generated constructor stub
+		setTitle("첫번째 프레임");
+		setSize(300,300);
+		add(new JButton("클릭"));
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new SwingEx01();
+	}
+	
+}

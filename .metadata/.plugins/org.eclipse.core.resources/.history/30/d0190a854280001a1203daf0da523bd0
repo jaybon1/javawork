@@ -1,0 +1,9 @@
+package chatv4;
+
+public interface ChatProtocol {
+	pub
+}
+
+public class ChatProtocol {
+
+}

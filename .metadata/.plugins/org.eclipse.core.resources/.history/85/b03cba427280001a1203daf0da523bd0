@@ -1,0 +1,15 @@
+package ch09;
+
+import javax.swing.JFrame;
+
+public class AwtEx01 extends JFrame {
+	
+	public AwtEx01() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -37,6 +37,10 @@ public class SingleTonEx01 {
 	
 		
 		// d1 은  d2와 같다
+		
+		
+		System.out.println(d1.hashCode());
+		System.out.println(d2.hashCode());
 	}
 }
 

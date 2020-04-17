@@ -1,0 +1,9 @@
+package ch01;
+
+public class Test {
+	public static void main(String[] args) {
+		String a = "asdf";
+		System.out.println(a.charAt(1));
+		System.out.println(a.codePointAt(1));
+	}
+}

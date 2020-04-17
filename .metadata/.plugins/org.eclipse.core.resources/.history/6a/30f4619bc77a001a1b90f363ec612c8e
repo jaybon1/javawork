@@ -1,7 +1,0 @@
-package ch15;
-
-public class HashEx01 {
-	public static void main(String[] args) {
-
-	}
-}

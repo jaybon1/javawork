@@ -1,0 +1,7 @@
+package ch08;
+
+class Str1{
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package simple;
+
+public class Stringtest {
+	
+	// 배열 아님
+	String str;
+	
+	// 스트링을 배열로 저장해서 하나로 출력
+	StringBuilder sb;
+	
+	// 스트링을 배열로 저장해서 하나로 출력하고 동시입력 불가(임계구역)
+	StringBuffer sbf;
+}

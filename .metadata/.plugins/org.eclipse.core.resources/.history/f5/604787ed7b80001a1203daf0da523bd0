@@ -1,0 +1,8 @@
+package ch01;
+
+public class Test {
+	public static void main(String[] args) {
+		String a = "asdf";
+		a.charAt(1);
+	}
+}

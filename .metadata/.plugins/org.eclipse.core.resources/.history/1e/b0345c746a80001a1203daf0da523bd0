@@ -1,0 +1,16 @@
+package ch06;
+
+class Animal{
+	
+}
+
+public class ObjectEx01 {
+	public static void main(String[] args) {
+		String d1 = "¹°";
+		String d2 = "¹°";
+		
+		System.out.println(d1 == d2);
+		System.out.println(d1.equals(d2));;
+		
+	}
+}

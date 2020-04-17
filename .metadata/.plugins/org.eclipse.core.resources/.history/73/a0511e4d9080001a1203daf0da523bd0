@@ -1,0 +1,18 @@
+package ch01;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		int[][] val = new int[4][3];
+		int aaa = 1;
+		for (int i = 0; i < 4; i++) {
+			for (int j = 0; j < 3; j++) {
+				val[i][j] = aaa;
+				aaa++;
+				System.out.print(val[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+	}
+}
