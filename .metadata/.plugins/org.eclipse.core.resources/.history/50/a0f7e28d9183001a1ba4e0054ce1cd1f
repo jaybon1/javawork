@@ -1,0 +1,27 @@
+package ch14;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class GraphicsDrawImageEx1 extends JFrame {
+	
+	class MyPanel extends JPanel{
+		private ImageIcon icon = new ImageIcon("img/pa.png");
+		private Image img = icon.getImage(); // 이미지객체
+		
+		@Override
+		protected void paintComponent(Graphics g) {
+			super.paintComponent(g);
+			
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}

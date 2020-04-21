@@ -1,0 +1,32 @@
+package ch14;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class KeyListenerEx extends JFrame {
+	private JLabel [] keyMessage;
+	
+	public KeyListenerEx() {
+		setTitle("keyListener");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c= getContentPane();
+		c.setLayout(new FlowLayout());
+		c.addKeyListener(new Myke);
+		
+		
+		// 레이블배열을 3개 생성하고 각레이블 컴포넌트생성
+		keyMessage = new JLabel[3]; // 레이블 배열 생성
+		keyMessage[0] = new JLabel(" getKeyCode() ");
+		keyMessage[1] = new JLabel(" getKeyCode() ");
+		keyMessage[2] = new JLabel(" getKeyCode() ");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

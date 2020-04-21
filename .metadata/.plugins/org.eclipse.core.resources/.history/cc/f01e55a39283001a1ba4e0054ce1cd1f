@@ -1,0 +1,23 @@
+package ch14;
+
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import javax.swing.JFrame;
+
+public class ClickAndDoubleClickEx extends JFrame {
+	
+	class MyMouseListener extends MouseAdapter{
+		@Override
+		public void mouseClicked(MouseEvent e) {
+			if(e.getClickCount() == 2) { // 더블클릭의 경우
+				int r= (int)(Math.random()*256);
+			}
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		new ClickAndDoubleClickEx();
+	}
+}

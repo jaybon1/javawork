@@ -1,7 +1,0 @@
-package Chat;
-
-public class MySocketClient {
-	public static void main(String[] args) {
-		
-	}
-}

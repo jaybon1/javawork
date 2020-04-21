@@ -1,0 +1,13 @@
+package simple;
+
+public class Test {
+	public static void main(String[] args) {
+		int n = 911;
+		
+
+		System.out.println(Math.pow(10, Integer.toString(n).length() -1));
+
+		
+
+	}
+}

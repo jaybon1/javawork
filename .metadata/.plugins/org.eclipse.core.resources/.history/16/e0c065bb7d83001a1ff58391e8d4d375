@@ -1,0 +1,21 @@
+package ch14;
+
+import java.awt.Container;
+
+import javax.swing.JLabel;
+
+public class EventEx07 {
+	
+	public EventEx07() {
+		JLabel la = new JLabel("¾È³ç");
+		la.setLocation(30, 10);
+		Container c = get
+		setlay
+		add(la);
+		setsi
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

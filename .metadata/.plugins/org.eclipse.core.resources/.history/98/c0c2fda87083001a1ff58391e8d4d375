@@ -1,0 +1,27 @@
+package ch14;
+
+import java.awt.Container;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class EventEx06 extends JFrame {
+	
+	int imgX = 140;
+	int imgY = 180;
+	
+	public EventEx06() {
+		setTitle("장풍 예제");
+		setSize(700, 300);
+		setLocationRelativeTo(null); // 프레임이 화면 가운데 배치
+		Container c = getContentPane();
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new EventEx06();
+	}
+}

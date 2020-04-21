@@ -1,0 +1,42 @@
+package ch14;
+
+import java.awt.Container;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class EventEx06 extends JFrame {
+	
+	int imgX = 140;
+	int imgY = 180;
+	
+	public EventEx06() {
+		setTitle("장풍 예제");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(700, 300);
+		setLocationRelativeTo(null); // 프레임이 화면 가운데 배치
+		setContentPane(new MyPanel()); // 기본패널을 안쓰고 내가 만든 패널을 사용
+		setVisible(true);
+	}
+	
+	// paintComponent()는 JFrame안에서 작동안함.
+	class MyPanel extends JPanel {
+		
+		// 그림 다시그리기
+		@Override
+		protected void paintComponent(Graphics g) {
+			ImageIcon imgRyu = new ImageIcon("ryu.png");
+			ImageIcon imgPa = new ImageIcon("pa.png");
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		new EventEx06();
+	}
+}

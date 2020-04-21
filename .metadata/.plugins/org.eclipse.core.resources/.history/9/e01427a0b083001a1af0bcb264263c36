@@ -1,0 +1,63 @@
+package ch14;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.net.URL;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Shrimp extends JFrame {
+	
+	int panelX = 400;
+	int panelY = 300;
+	
+	int a = 20;
+	int b = 80;
+	int c = 70;
+	
+	class MyPanel extends JPanel {
+		
+		@Override
+		protected void paintComponent(Graphics g) {
+			super.paintComponent(g);
+			g.setColor(Color.BLACK);
+			g.drawString("2019.10", (int)(panelX*(0.2)), (int)(panelY*(0.9)));
+			g.drawString("2019.11", (int)(panelX*(0.4)), (int)(panelY*(0.9)));
+			g.drawString("2019.12", (int)(panelX*(0.6)), (int)(panelY*(0.9)));
+			
+			g.setColor(Color.BLACK);
+			g.drawString(Integer.toString(a), (int)(panelX*(0.2))+ 18, (int)(panelY*(0.8) - a) - 10);
+			g.drawString(Integer.toString(b), (int)(panelX*(0.4))+ 18, (int)(panelY*(0.8) - b) - 10);
+			g.drawString(Integer.toString(c), (int)(panelX*(0.6))+ 18, (int)(panelY*(0.8) - c) - 10);
+			
+			g.setColor(Color.BLUE);
+			g.fillRect((int)(panelX*(0.2)), (int)(panelY*(0.8) - a), 50, a);
+			g.fillRect((int)(panelX*(0.4)), (int)(panelY*(0.8) - b), 50, b);
+			g.fillRect((int)(panelX*(0.6)), (int)(panelY*(0.8) - c), 50, c);
+			
+		}
+	}
+	
+	private MyPanel mp = new MyPanel();
+	
+	public Shrimp() {
+		setTitle("fillXXX 사용 예제");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setContentPane(mp);
+		mp.setLayout(null);
+
+		setSize(panelX, panelY + 30);
+		setVisible(true);
+	}
+	
+	public static void change() {
+		URL url = new URL();
+	}
+	
+	
+	public static void main(String[] args) {
+		new Shrimp();
+	}
+}

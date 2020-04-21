@@ -1,0 +1,14 @@
+package ch09;
+
+import javax.swing.JFrame;
+
+public class GridLayoutEx extends JFrame {
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		new GridLayoutEx();
+	}
+}

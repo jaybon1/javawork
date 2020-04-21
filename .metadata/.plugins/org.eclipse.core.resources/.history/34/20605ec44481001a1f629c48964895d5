@@ -1,0 +1,28 @@
+package simple;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Test {
+	public static void main(String[] args) {
+		
+//		ArrayList<Integer> test = new ArrayList<>();
+//		for (int i = 1; i < 5000; i++) {
+//			test.add(i);
+//		}
+		
+		int n = 911;
+		int temp = n;
+		int a;
+		int b;
+		
+		for (int i = Integer.toString(n).length(); i > 0; i++) {
+			a = temp / (Math.pow(10, Integer.toString(n).length() -1));
+		}
+
+		System.out.println(Math.pow(10, Integer.toString(n).length() -1));
+
+		
+
+	}
+}

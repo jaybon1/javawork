@@ -1,0 +1,22 @@
+package ch14;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class EventEx07 extends JFrame {
+	
+	public EventEx07() {
+		JLabel la = new JLabel("¾È³ç");
+		la.setLocation(30, 10);
+		Container c = getContentPane();
+		c.setLayout(null);
+		c.add(la);
+		c.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new EventEx07();
+	}
+}
