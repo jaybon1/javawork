@@ -12,10 +12,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import org.json.XML;
+
 import com.google.gson.Gson;
 
 import airplane.Air;
-import ori.json.XML;
 
 public class Shrimp extends JFrame {
 
@@ -86,7 +87,7 @@ public class Shrimp extends JFrame {
 		br.close(); // ¹öÆÛ ´Ý±â
 		con.disconnect(); // ½ºÆ®¸² ´Ý±â
 		
-		ori.json.JSONObject jsonOb = XML.toJSONObject(sb.toString());
+		org.json.JSONObject jsonOb = XML.toJSONObject(sb.toString());
 		String jsonString = jsonOb.toString();
 		
 		

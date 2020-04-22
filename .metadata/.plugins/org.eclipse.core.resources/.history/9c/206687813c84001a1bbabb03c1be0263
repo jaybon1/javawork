@@ -1,0 +1,31 @@
+package test;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Integer> arr = new ArrayList<>();
+		ArrayList<Integer> arr1 = new ArrayList<>();
+		arr.add(-1);
+		arr.add(1);
+		arr.add(3);
+		arr.add(-2);
+		arr.add(2);
+		
+		
+		
+		
+		for (Integer integer : arr1) {
+			if(integer < 0) {
+				arr1.add(integer);
+			} else {
+				arr1.add(integer);
+			}
+		}
+		
+		for (Integer integer : arr1) {
+			System.out.println(integer);
+		}
+		
+	}
+}
