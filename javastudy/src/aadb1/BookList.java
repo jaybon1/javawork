@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class BookList {
-	Connection con;
+	Connection con; // ¸â¹öº¯¼ö
 
 	int index;
 	

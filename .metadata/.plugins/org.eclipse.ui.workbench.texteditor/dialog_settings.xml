@@ -6,7 +6,7 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Air"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
 			<item value="FlightInfo"/>
 			<item value="Unit"/>
