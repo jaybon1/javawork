@@ -1,4 +1,4 @@
-!SESSION 2020-04-21 13:40:27.656 -----------------------------------------------
+!SESSION 2020-04-24 09:04:52.234 -----------------------------------------------
 eclipse.buildId=4.5.1.202001211336-RELEASE
 java.version=1.8.0_241
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
 This is a continuation of log file C:\src\javawork\.metadata\.bak_2.log
-Created Time: 2020-04-21 16:37:33.411
+Created Time: 2020-04-24 15:34:54.822
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.412
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.823
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -51,53 +51,12 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.413
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.824
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
-	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.access$0(ChainedPreferenceStore.java:345)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore$PropertyChangeListener.propertyChange(ChainedPreferenceStore.java:70)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
-	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:851)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:854)
-	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:961)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1458)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1452)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1441)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4167)
-	at org.eclipse.swt.widgets.Display.release(Display.java:3634)
-	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:166)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.414
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NullPointerException
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
 	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
@@ -134,7 +93,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.414
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.824
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -176,7 +135,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.415
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.825
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -218,54 +177,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.416
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.826
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
 	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
-	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore.access$0(ChainedPreferenceStore.java:345)
-	at org.eclipse.ui.texteditor.ChainedPreferenceStore$PropertyChangeListener.propertyChange(ChainedPreferenceStore.java:70)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
-	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
-	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:851)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:854)
-	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:961)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1458)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1452)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1441)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4167)
-	at org.eclipse.swt.widgets.Display.release(Display.java:3634)
-	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:166)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
-
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.417
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
-!STACK 0
-java.lang.NullPointerException
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -301,7 +219,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.418
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.827
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -343,7 +261,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.419
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.828
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -385,7 +303,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.420
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.829
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -427,7 +345,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.421
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.830
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -469,12 +387,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.422
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.831
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -510,7 +429,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.422
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.833
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -552,7 +471,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.423
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.834
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -594,7 +513,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.424
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.835
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -636,7 +555,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.425
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.836
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -678,12 +597,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.425
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.837
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -719,7 +639,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.426
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.838
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -761,7 +681,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.426
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.839
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -803,7 +723,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.427
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.840
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -845,7 +765,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.428
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.841
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -887,12 +807,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.428
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.842
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -928,7 +849,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.429
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.843
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -970,7 +891,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.430
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.843
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1012,7 +933,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.430
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.844
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1054,7 +975,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.431
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.845
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1096,12 +1017,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.432
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.846
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -1137,7 +1059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.432
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.846
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1179,7 +1101,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.433
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.847
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1221,7 +1143,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.434
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.848
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1263,7 +1185,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.434
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.849
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1305,12 +1227,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.435
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.850
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -1346,7 +1269,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.436
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.851
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1388,7 +1311,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.437
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.852
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1430,7 +1353,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.437
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.853
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1472,7 +1395,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.438
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.854
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1514,12 +1437,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.439
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.855
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -1555,7 +1479,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.439
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.856
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1597,7 +1521,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.440
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.857
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1639,7 +1563,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.441
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.858
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1681,7 +1605,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.441
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.859
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1723,12 +1647,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.442
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.860
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -1764,7 +1689,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.443
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.861
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1806,7 +1731,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.443
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.862
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1848,7 +1773,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.444
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.862
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1890,7 +1815,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.445
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.863
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -1932,12 +1857,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.445
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.865
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -1973,7 +1899,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.446
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.866
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2015,7 +1941,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.447
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.867
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2057,7 +1983,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.447
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.868
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2099,7 +2025,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.448
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.869
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2141,12 +2067,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.448
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.879
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -2182,7 +2109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.449
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.880
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2224,7 +2151,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.450
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.881
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2266,7 +2193,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.450
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.883
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2308,7 +2235,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.451
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.884
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2350,12 +2277,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.452
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.885
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -2391,7 +2319,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.453
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.886
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2433,7 +2361,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.453
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.886
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2475,7 +2403,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.454
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.887
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2517,7 +2445,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.455
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.888
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2559,12 +2487,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.456
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.889
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -2600,7 +2529,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.457
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.889
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2642,7 +2571,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.457
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.890
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2684,7 +2613,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.458
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.891
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2726,7 +2655,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.459
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.892
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2768,12 +2697,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.460
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.893
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -2809,7 +2739,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.461
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.893
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2851,7 +2781,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.461
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.894
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2893,7 +2823,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.462
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.895
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2935,7 +2865,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.463
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.896
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -2977,12 +2907,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.464
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.897
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -3018,7 +2949,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.464
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.899
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3060,7 +2991,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.465
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.899
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3102,7 +3033,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.466
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.900
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3144,7 +3075,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.466
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.901
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3186,12 +3117,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.467
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.902
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -3227,7 +3159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.468
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.902
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3269,7 +3201,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.468
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.903
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3311,7 +3243,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.469
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.904
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3353,7 +3285,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.470
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.904
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3395,12 +3327,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.471
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.905
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -3436,7 +3369,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.472
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.906
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3478,7 +3411,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.473
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.906
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3520,7 +3453,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.474
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.907
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3562,7 +3495,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.476
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.908
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3604,12 +3537,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.477
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.909
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -3645,7 +3579,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.478
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.909
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3687,7 +3621,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.480
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.910
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3729,7 +3663,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.481
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.911
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3771,7 +3705,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.481
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.912
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3813,12 +3747,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.482
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.913
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -3854,7 +3789,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.483
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.913
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3896,7 +3831,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.484
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.914
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3938,7 +3873,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.485
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.916
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -3980,7 +3915,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.486
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.917
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4022,12 +3957,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.487
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.918
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -4063,7 +3999,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.488
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.919
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4105,7 +4041,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.488
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.920
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4147,7 +4083,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.489
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.921
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4189,7 +4125,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.490
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.921
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4231,12 +4167,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.491
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.922
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -4272,7 +4209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.492
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.923
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4314,7 +4251,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.492
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.924
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4356,7 +4293,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.493
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.924
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4398,7 +4335,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.494
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.925
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4440,12 +4377,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.495
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.926
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -4481,7 +4419,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.496
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.927
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4523,7 +4461,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.496
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.927
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4565,7 +4503,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.497
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.928
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4607,7 +4545,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.498
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.929
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4649,12 +4587,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.499
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.929
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -4690,7 +4629,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.499
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.930
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4732,7 +4671,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.500
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.931
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4774,7 +4713,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.501
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.932
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4816,7 +4755,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.502
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.933
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4858,12 +4797,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.503
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.934
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -4899,7 +4839,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.504
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.935
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4941,7 +4881,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.505
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.936
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -4983,7 +4923,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.506
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.936
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5025,7 +4965,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.506
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.937
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5067,12 +5007,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.507
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.938
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -5108,7 +5049,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.508
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.952
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5150,7 +5091,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.508
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.953
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5192,7 +5133,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.509
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.954
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5234,7 +5175,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.510
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.955
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5276,12 +5217,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.511
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.956
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -5317,7 +5259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.512
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.956
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5359,7 +5301,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.512
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.957
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5401,7 +5343,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.513
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.958
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5443,7 +5385,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.514
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.958
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5485,12 +5427,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.515
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.959
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -5526,7 +5469,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.515
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.960
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5568,7 +5511,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.516
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.960
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5610,7 +5553,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.517
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.961
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5652,7 +5595,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.517
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.962
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5694,12 +5637,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.519
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.962
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -5735,7 +5679,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.520
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.963
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5777,7 +5721,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.521
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.964
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5819,7 +5763,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.521
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.964
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5861,7 +5805,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.522
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.965
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5903,12 +5847,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.523
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.966
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -5944,7 +5889,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.524
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.966
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -5986,7 +5931,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.524
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.967
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6028,7 +5973,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.525
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.968
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6070,7 +6015,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.526
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.968
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6112,12 +6057,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.527
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.969
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -6153,7 +6099,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.528
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.970
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6195,7 +6141,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.528
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.970
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6237,7 +6183,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.529
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.971
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6279,7 +6225,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.530
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.972
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6321,12 +6267,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.531
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.972
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -6362,7 +6309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.532
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.973
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6404,7 +6351,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.533
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.974
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6446,7 +6393,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.534
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.974
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6488,7 +6435,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.535
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.975
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6530,12 +6477,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.536
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.976
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -6571,7 +6519,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.538
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.976
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6613,7 +6561,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.539
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.977
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6655,7 +6603,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.540
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.978
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6697,7 +6645,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.540
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.979
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6739,12 +6687,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.541
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.979
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -6780,7 +6729,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.542
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.980
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6822,7 +6771,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.543
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.981
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6864,7 +6813,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.544
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.981
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6906,7 +6855,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.545
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.982
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -6948,12 +6897,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.546
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.983
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -6989,7 +6939,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.547
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.983
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7031,7 +6981,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.548
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.984
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7073,7 +7023,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.549
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.985
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7115,7 +7065,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.550
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.985
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7157,12 +7107,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.551
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.986
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -7198,7 +7149,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.552
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.987
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7240,7 +7191,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.554
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.987
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7282,7 +7233,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.555
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.988
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7324,7 +7275,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.556
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.988
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7366,12 +7317,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.557
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.989
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -7407,7 +7359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.558
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.990
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7449,7 +7401,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.559
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.991
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7491,7 +7443,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.560
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.992
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7533,7 +7485,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.561
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.992
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7575,12 +7527,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.562
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.993
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -7616,7 +7569,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.563
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.994
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7658,7 +7611,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.564
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.995
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7700,7 +7653,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.565
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.995
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7742,7 +7695,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.565
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.996
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7784,12 +7737,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.567
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.997
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -7825,7 +7779,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.568
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.998
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7867,7 +7821,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.569
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:54.999
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7909,7 +7863,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.570
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.000
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7951,7 +7905,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.571
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.001
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -7993,12 +7947,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.572
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.001
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -8034,7 +7989,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.573
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.002
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8076,7 +8031,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.574
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.003
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8118,7 +8073,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.575
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.003
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8160,7 +8115,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.576
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.004
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8202,12 +8157,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.577
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.005
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -8243,7 +8199,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.578
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.005
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8285,7 +8241,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.579
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.006
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8327,7 +8283,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.580
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.007
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8369,7 +8325,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.581
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.007
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8411,12 +8367,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.582
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.008
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -8452,7 +8409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.583
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.009
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8494,7 +8451,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.584
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.010
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8536,7 +8493,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.585
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.010
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8578,7 +8535,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.586
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.011
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8620,12 +8577,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.587
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.012
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -8661,7 +8619,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.588
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.013
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8703,7 +8661,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.589
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.013
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8745,7 +8703,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.591
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.014
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8787,7 +8745,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.592
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.015
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8829,12 +8787,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.592
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.016
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -8870,7 +8829,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.593
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.017
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8912,7 +8871,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.594
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.017
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8954,7 +8913,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.595
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.018
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -8996,7 +8955,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.596
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.019
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9038,12 +8997,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.597
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.020
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -9079,7 +9039,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.598
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.021
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9121,7 +9081,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.599
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.022
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9163,7 +9123,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.600
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.022
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9205,7 +9165,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.600
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.023
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9247,12 +9207,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.601
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.024
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -9288,7 +9249,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.602
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.024
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9330,7 +9291,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.603
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.025
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9372,7 +9333,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.604
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.026
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9414,7 +9375,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.605
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.027
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9456,12 +9417,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.606
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.028
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -9497,7 +9459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.607
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.028
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9539,7 +9501,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.608
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.029
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9581,7 +9543,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.608
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.030
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9623,7 +9585,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.609
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.030
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9665,12 +9627,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.610
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.031
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -9706,7 +9669,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.611
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.033
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9748,7 +9711,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.611
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.034
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9790,7 +9753,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.611
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.034
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9832,7 +9795,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.612
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.035
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9874,12 +9837,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.613
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.036
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -9915,7 +9879,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.614
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.037
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9957,7 +9921,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.616
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.037
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -9999,7 +9963,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.617
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.038
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10041,7 +10005,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.617
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.039
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10083,12 +10047,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.618
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.040
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -10124,7 +10089,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.618
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.041
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10166,7 +10131,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.619
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.042
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10208,7 +10173,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.619
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.043
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10250,7 +10215,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.620
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.043
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10292,12 +10257,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.621
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.044
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -10333,7 +10299,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.622
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.045
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10375,7 +10341,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.623
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.046
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10417,7 +10383,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.623
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.047
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10459,7 +10425,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.624
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.047
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10501,12 +10467,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.625
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.048
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -10542,7 +10509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.625
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.049
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10584,7 +10551,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.626
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.050
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10626,7 +10593,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.627
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.051
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10668,7 +10635,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.627
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.052
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10710,12 +10677,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.628
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.052
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -10751,7 +10719,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.629
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.053
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10793,7 +10761,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.630
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.054
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10835,7 +10803,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.630
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.055
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10877,7 +10845,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.631
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.055
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -10919,12 +10887,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.632
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.056
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -10960,7 +10929,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.633
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.057
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11002,7 +10971,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.634
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.058
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11044,7 +11013,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.634
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.059
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11086,7 +11055,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.635
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.059
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11128,12 +11097,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.636
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.060
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -11169,7 +11139,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.637
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.061
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11211,7 +11181,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.638
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.061
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11253,7 +11223,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.639
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.062
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11295,7 +11265,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.640
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.063
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11337,12 +11307,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.641
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.064
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -11378,7 +11349,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.641
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.065
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11420,7 +11391,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.642
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.066
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11462,7 +11433,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.643
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.067
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11504,7 +11475,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.644
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.067
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11546,12 +11517,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.644
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.068
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -11587,7 +11559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.645
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.069
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11629,7 +11601,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.646
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.069
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11671,7 +11643,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.647
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.070
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11713,7 +11685,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.647
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.071
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11755,12 +11727,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.648
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.072
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -11796,7 +11769,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.649
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.072
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11838,7 +11811,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.649
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.073
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11880,7 +11853,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.650
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.074
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11922,7 +11895,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.651
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.075
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -11964,12 +11937,13 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.652
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.076
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.getBreadcrumbPreferenceKey(JavaEditor.java:1947)
 	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.handlePreferenceStoreChanged(JavaEditor.java:2897)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.handlePreferenceStoreChanged(CompilationUnitEditor.java:1649)
 	at org.eclipse.ui.texteditor.AbstractTextEditor$PropertyChangeListener.propertyChange(AbstractTextEditor.java:701)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.firePropertyChangeEvent(ChainedPreferenceStore.java:156)
 	at org.eclipse.ui.texteditor.ChainedPreferenceStore.handlePropertyChangeEvent(ChainedPreferenceStore.java:368)
@@ -12005,7 +11979,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.653
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.077
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException
@@ -12047,7 +12021,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 
-!ENTRY org.eclipse.ui.workbench 4 2 2020-04-21 16:37:33.654
+!ENTRY org.eclipse.ui.workbench 4 2 2020-04-24 15:34:55.077
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.NullPointerException

@@ -22,7 +22,7 @@ public class CalenderEx {
 		int second = cal.get(Calendar.SECOND);
 		String second1 = (second < 10)?"0" + second:"" + second;
 		
-		System.out.println(year+"-"+mon+"-"+day+":"+hour1+":"+minute1+":"+second1);
+		System.out.println(msg + " " + year+"-"+mon+"-"+day+":"+hour1+":"+minute1+":"+second1);
 		
 	}
 	
@@ -30,7 +30,5 @@ public class CalenderEx {
 		Calendar a = Calendar.getInstance(); // ½Ì±ÛÅæ
 		
 		printCalender("ÇöÀç", a);
-
-		
 	}
 }

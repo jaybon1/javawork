@@ -22,6 +22,11 @@ public class Shrimp extends JFrame {
 
 	int panelX = 400;
 	int panelY = 180;
+	
+	
+	static String yearMonth1 = "201910";
+	static String yearMonth2 = "201911";
+	static String yearMonth3 = "201912";
 
 	static int max = 0;
 	static int a = 0;
@@ -37,9 +42,9 @@ public class Shrimp extends JFrame {
 		protected void paintComponent(Graphics g) {
 			super.paintComponent(g);
 			g.setColor(Color.BLACK);
-			g.drawString("2019.10", (int) (panelX * (0.2)), (int) (panelY * (0.9)));
-			g.drawString("2019.11", (int) (panelX * (0.4)), (int) (panelY * (0.9)));
-			g.drawString("2019.12", (int) (panelX * (0.6)), (int) (panelY * (0.9)));
+			g.drawString(yearMonth1, (int) (panelX * (0.2)), (int) (panelY * (0.9)));
+			g.drawString(yearMonth2, (int) (panelX * (0.4)), (int) (panelY * (0.9)));
+			g.drawString(yearMonth3, (int) (panelX * (0.6)), (int) (panelY * (0.9)));
 
 			g.setColor(Color.BLACK);
 			g.drawString(Integer.toString(aa), (int) (panelX * (0.2)) + 10, (int) (panelY * (0.8) - a) - 10);
@@ -101,11 +106,10 @@ public class Shrimp extends JFrame {
 	public static void main(String[] args) {
 		ArrayList<String> amount = new ArrayList<>();
 		
-		
 		try {
-			amount.add(change("201910"));
-			amount.add(change("201911"));
-			amount.add(change("201912"));
+			amount.add(change(Shrimp.yearMonth1));
+			amount.add(change(Shrimp.yearMonth2));
+			amount.add(change(Shrimp.yearMonth3));
 
 		} catch (Exception e) {
 			e.printStackTrace();

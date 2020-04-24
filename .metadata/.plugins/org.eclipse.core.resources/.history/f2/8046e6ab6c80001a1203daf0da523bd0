@@ -1,9 +1,0 @@
-package ch06;
-
-public class ObjectEx02 {
-	public static void main(String[] args) {
-		Integer num = 10;
-		String s = Integer.toString(num);
-		System.out.println(s);
-	}
-}

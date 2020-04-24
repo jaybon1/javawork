@@ -12,17 +12,17 @@ import net.nurigo.java_sdk.exceptions.CoolsmsException;
 
 // Message 객체 생성하여 send 메서드 사용하면 됨
 public class ExampleSend {
-  public static void main(String[] args) {
-    String api_key = "";
-    String api_secret = "";
+  public ExampleSend(String tel, String msg) {
+    String api_key = "NCS25L956VYR1CEZ";
+    String api_secret = "G86S4DO7X9LXZ05CXROFNFLWSVATX914";
     Message coolsms = new Message(api_key, api_secret);
 
     // 4 params(to, from, type, text) are mandatory. must be filled
     HashMap<String, String> params = new HashMap<String, String>();
-    params.put("to", "");
-    params.put("from", "");
+    params.put("to", tel);
+    params.put("from", "01099241840");
     params.put("type", "LMS");
-    params.put("text", "나의 첫번째 메시지 전송 프로그램 테스트");
+    params.put("text", msg);
     params.put("app_version", "test app 1.2"); // application name and version
 
     try {
@@ -33,4 +33,5 @@ public class ExampleSend {
       System.out.println(e.getCode());
     }
   }
+  
 }

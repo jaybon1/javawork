@@ -1,7 +1,0 @@
-package simple;
-
-public class Stringtest {
-	String str;
-	StringBuilder sb;
-	StringBuffer sbf;
-}
