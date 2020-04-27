@@ -1,7 +1,0 @@
-package ch09;
-
-public class BorderLayoutEx {
-	public static void main(String[] args) {
-		
-	}
-}
