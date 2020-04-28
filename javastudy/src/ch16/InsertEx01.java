@@ -30,7 +30,7 @@ public class InsertEx01 {
 			pstmt.setString(4, "1234");
 			
 			// 버퍼에 쓰기(commit이 달려있다) - execute()는 commit이 없다
-			pstmt.executeUpdate();
+			pstmt.executeUpdate(); // 리턴: 몇건이 수행됐는지 int로 리턴할 수 있다
 			System.out.println("인서트완료");
 			
 		} catch (Exception e) {

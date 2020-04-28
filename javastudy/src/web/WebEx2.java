@@ -19,12 +19,12 @@ public class WebEx2 extends JFrame {
 		WebView webView = new WebView();
 
 		group.getChildren().add(webView);
-		webView.setMinSize(500, 500);
-		webView.setMaxSize(500, 500);
+		webView.setMinSize(1000, 1000);
+		webView.setMaxSize(1000, 1000);
 
 		WebEngine webEngine = webView.getEngine();
 
-		webEngine.load("http://59.20.79.42/server/test4.html");
+		webEngine.load("file:///C:/html_study/slug/slug.html");
 		
 	}
 

@@ -6,8 +6,9 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="println()"/>
 		<list key="findhistory">
+			<item value="println()"/>
 			<item value="FlightInfo"/>
 			<item value="Unit"/>
 			<item value="main"/>
