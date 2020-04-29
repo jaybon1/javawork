@@ -1,9 +1,0 @@
-package aadb1;
-
-public class Test {
-	public static void main(String[] args) {
-		int a = (Integer) null;
-		
-		System.out.println(a);
-	}
-}

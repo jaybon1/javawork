@@ -3,6 +3,8 @@ package test2;
 import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -25,6 +27,8 @@ public class Cookie1 {
 	Foot nowFoot;
 	int countFoot = 0;
 	int footNum = 0;
+
+	boolean jump = false;
 
 	long firstTime = CookieUtil.getTime();
 	long nowTime;
@@ -81,6 +85,7 @@ public class Cookie1 {
 
 	class MyPanel extends JPanel {
 		public MyPanel() {
+			setFocusable(true);
 
 			f1 = new Field();
 			c1 = new Cookie(cookie, 0, 125, 0);
@@ -93,6 +98,19 @@ public class Cookie1 {
 				nowFoot = foots.get(0);
 
 			}
+
+			addKeyListener(new KeyAdapter() {
+				@Override
+				public void keyPressed(KeyEvent e) {
+					if (e.getKeyCode() == KeyEvent.VK_SPACE) {
+						if (jump == false) {
+							System.out.println("a");
+							jump = true;
+							jump();
+						}
+					}
+				}
+			});
 
 			// 화면갱신 쓰레드
 			new Thread(new Runnable() {
@@ -146,10 +164,9 @@ public class Cookie1 {
 							foots.get(i).setX(foots.get(i).getX() - 1);
 						}
 						countFoot++;
-						
-						footNum = (int)(countFoot/124);
-						System.out.println(footNum);
-						
+
+						footNum = (int) (countFoot / 124);
+
 						try {
 							Thread.sleep(10);
 						} catch (InterruptedException e) {
@@ -187,15 +204,17 @@ public class Cookie1 {
 				@Override
 				public void run() {
 					while (true) {
-						
-						if(Integer.parseInt((f1.field.charAt(footNum)+"")) == 1) {
-							if(c1.getY() + c1.getImage().getHeight(null) < 200) {
+						if (jump == false) {
+							if (Integer.parseInt((f1.field.charAt(footNum) + "")) == 1) {
+								if (c1.getY() + c1.getImage().getHeight(null) < 200) {
+									c1.setY(c1.getY() + 1);
+								} else {
+								}
+							} else {
 								c1.setY(c1.getY() + 1);
 							}
-						} else {
-							c1.setY(c1.getY() + 1);
 						}
-						
+
 						try {
 							Thread.sleep(10);
 						} catch (InterruptedException e) {
@@ -224,6 +243,34 @@ public class Cookie1 {
 			g.drawImage(c1.getImage(), c1.getX(), c1.getY(), this);
 
 		}
+	}
+
+	// 점프 메서드
+	void jump() {
+		new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				System.out.println("점프시작");
+
+				long t1 = CookieUtil.getTime();
+				long t2;
+				int jumpY = 20;
+				while (jumpY > 0) {
+					t2 = CookieUtil.getTime() - t1;
+					c1.setY(c1.getY() - jumpY);
+					jumpY = jumpY - (int) ((t2) / 40);
+					try {
+						Thread.sleep(50);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+
+				}
+				jump = false;
+			}
+		}).start();
+
 	}
 
 }
