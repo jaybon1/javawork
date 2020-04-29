@@ -10,7 +10,7 @@ ResultSet myResultSet = stmt.executeQuery("SELECT * FROM Book");
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=euc-kr">
-<title>** BOOK LIST**</title>
+<title>** CUSTOMER LIST**</title>
 </head>
 
 <body bgcolor = "white" text = "black" link = "blue" vlink = "purple" alink = "red">
