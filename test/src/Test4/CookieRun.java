@@ -108,8 +108,27 @@ public class CookieRun {
 	
 	class MyPanel extends JPanel{
 		
-		public MyPanel() {
+		
+		private void initObject() {
 			
+		}
+		
+		private void initDesign() {
+			
+		}
+		
+		private void initListener() {
+			
+		}
+		
+		private void initSetting() {
+			
+		}
+		
+		public MyPanel() {
+			initObject();
+			initDesign();
+			initListener();
 			setFocusable(true);
 			
 			// 쿠키 인스턴스 생성   / 기본 자료는 클래스안에 내장 되어 있기 때문에 이미지만 넣었다.
@@ -871,7 +890,7 @@ public class CookieRun {
 		frame.getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
 		
-		escButton = new Button("재시작");
+		escButton = new Button("게임으로 돌아가기");
 		escButton.setBounds(350, 240, 50, 30);
 		escButton.addMouseListener(new MouseAdapter() {
 			@Override

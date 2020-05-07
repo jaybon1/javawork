@@ -152,7 +152,6 @@ public class CookieRun2 {
 						// 좌표에 40을 곱하고, 넓이와 높이는 30으로 한다.
 						jellyList.add(new Jelly(jellyHPIc.getImage(), i * 40, j * 40, 30, 30, 4567));
 					}
-
 				}
 			}
 
@@ -861,17 +860,13 @@ public class CookieRun2 {
 		frame.getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
 
-		escButton = new Button("재시작");
+		escButton = new Button("돌아가기");
 		escButton.setBounds(350, 240, 50, 30);
 		escButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
+				panel.remove(escButton);
 				escKeyOn = false;
-				
-				frame.setVisible(false);
-				frame.setContentPane(panel1);
-				frame.setVisible(true);
-//				panel.remove(escButton);
 			}
 		});
 	}
