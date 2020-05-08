@@ -2,11 +2,15 @@ package Test5;
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 import java.awt.CardLayout;
+
+
 
 public class Main extends listenAdapter {
 
@@ -21,6 +25,12 @@ public class Main extends listenAdapter {
 	private EndPanel endPanel; // 게임종료
 
 	private CardLayout cl; // 카드 레이이웃 오브젝트
+	
+	public CardLayout getCl() {
+		return cl;
+	}
+	
+	private CookieImg ci; // 쿠키이미지
 
 	/**
 	 * Launch the application.
@@ -51,7 +61,7 @@ public class Main extends listenAdapter {
 
 		introPanel = new IntroPanel();
 		selectPanel = new SelectPanel();
-		gamePanel = new GamePanel();
+		gamePanel = new GamePanel(frame, cl);
 		endPanel = new EndPanel();
 
 		introPanel.addMouseListener(this);
@@ -65,6 +75,15 @@ public class Main extends listenAdapter {
 		frame.getContentPane().add(selectPanel, "select");
 		frame.getContentPane().add(gamePanel, "game");
 		frame.getContentPane().add(endPanel, "end");
+		
+		ci = new CookieImg(
+				new ImageIcon("img/c1.gif"),
+				new ImageIcon("testimg/jumpTest.png"),
+				new ImageIcon("testimg/doubleJumpTest.png"),
+				new ImageIcon("testimg/fallTest.png"),
+				new ImageIcon("testimg/slideTest.png"),
+				new ImageIcon("testimg/hitTest.png")
+				);
 	}
 
 	@Override
@@ -84,7 +103,11 @@ public class Main extends listenAdapter {
 				}				
 			}
 		}
-		cl.show(frame.getContentPane(), "select");
+		
+		cl.show(frame.getContentPane(), "game");
+		gamePanel.gameSet(ci);
+		gamePanel.gameStart();
+		gamePanel.requestFocus();
 	}
 
 	@Override
@@ -93,4 +116,10 @@ public class Main extends listenAdapter {
 			// 널포인트 에러 방지
 		}
 	}
+	
+	@Override
+	public void keyPressed(KeyEvent e) {
+		System.out.println("a");
+	}
+
 }

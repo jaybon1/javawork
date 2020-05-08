@@ -6,8 +6,10 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="count"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="ystem"/>
+			<item value="system"/>
 			<item value="count"/>
 			<item value="c1.getHeight"/>
 			<item value="c.getHeight"/>
