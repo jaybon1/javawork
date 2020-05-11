@@ -1,5 +1,5 @@
 applyBackground=true
-approved.defs.file.last.changed.time=1588114029000
+approved.defs.file.last.changed.time=1588891908000
 codemix.dont.show.upsell.until=1586824203384
 configurationInstallLocation=/C\:/tools/sts-4.5.1.RELEASE/
 eclipse.preferences.version=1
@@ -7,8 +7,8 @@ elearning.dont.show.until=1587866380748
 iconcolormode=primary
 iconreplacement=true
 includeThemingInOomph=false
-last.download.attempt.time=1588897464173
-lastConfiguration=1588897455968
+last.download.attempt.time=1589180558632
+lastConfiguration=1589180550275
 newinstall=true
 showWelcomeDialog=false
 workbench.theme=Dark Gray
