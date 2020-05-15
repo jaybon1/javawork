@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.List;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -18,12 +19,14 @@ import javax.swing.JScrollPane;
 
 import address.model.GroupType;
 import address.model.Member;
+import address.service.MemberService;
 import address.utils.MyStringParser;
 
 public class MainFrame extends JFrame {
 	
+	private MemberService memberService = MemberService.getInstance();
 	
-	private JFrame mainFrame = this;
+	private MainFrame mainFrame = this;
 	
 	private Container backgroundPanel;
 	
@@ -68,8 +71,9 @@ public class MainFrame extends JFrame {
 	
 	// 데이터 초기화
 	private void initData() {
-		for (int i = 1; i < 31; i++) {
-			listModel.addElement(new Member(i, "홍길동", "0102222", "부산시", GroupType.친구));
+		List<Member> members = memberService.전체목록();
+		for(Member member : members) {
+			listModel.addElement(member);
 		}
 	}
 	
@@ -115,7 +119,7 @@ public class MainFrame extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 //				System.out.println(userList.getSelectedIndex());
 //				System.out.println(userList.getSelectedValue());
-				int memberId = MyStringParser.getId(userList.getSelectedValue().toString());
+				int memberId = MyStringParser.getId(userList.getSelectedValue().toString()); // 콤보박스 데이터 불러오는 방식 확인
 				new DetailFrame(mainFrame, memberId);
 			}
 			
@@ -127,7 +131,24 @@ public class MainFrame extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				new AddFrame(mainFrame);
+				mainFrame.setVisible(false);
 			}
 		});
 	}
+	
+	
+	public void notifyUserList() {
+		// listModel을 비우기
+		listModel.clear();
+		// select해서 전체목록 가져오기
+		// List<Member>에 담기
+		// listModel을 채워주기(자동 갱신되기 때문에 강제로 갱신 안해도됨)
+		initData();
+		
+	}
+	
+	
 }
+
+// 뭐 먹으러 가냐구 막걸리 먹고싶노 비도 오는데
+

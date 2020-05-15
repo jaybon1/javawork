@@ -96,6 +96,8 @@
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
 		<item key="renameSubpackages" value="false"/>
+		<item key="renameGetter" value="false"/>
+		<item key="renameSetter" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="262"/>

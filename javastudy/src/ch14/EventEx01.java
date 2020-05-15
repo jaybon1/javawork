@@ -4,6 +4,8 @@ import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -22,6 +24,13 @@ public class EventEx01 extends JFrame {
 		c.setLayout(new FlowLayout());
 		
 		JButton btn = new JButton("Action");
+		
+		btn.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				super.mouseClicked(e);
+			}
+		});
 		
 		// 리스너 생성
 		btn.addActionListener(new ActionListener() {

@@ -23,7 +23,7 @@ public class MySocketServer {
 		while ((msg = br.readLine()) != null) { // br로 데이터를 받고 msg에 넣은 후 null값인지 확인한다
 			System.out.println("상대방 : " + msg); // 받은 메시지를 출력한다
 		}
-
+		
 		// 사용이 끝난 인스턴스를 닫는다
 		br.close();
 		socket.close();
@@ -31,9 +31,12 @@ public class MySocketServer {
 	}
 
 	public static void main(String[] args) {
-		
+
 		try { // main이 함수를 호출 했기 때문에 여기서 트라이캐치를 사용
 			new MySocketServer(); // 소켓서버 가동 메서드 실행;
-		} catch (Exception e) {}
+		} catch (Exception e) {
+
+		}
 	}
+
 }
