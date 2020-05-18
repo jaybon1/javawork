@@ -6,8 +6,6 @@ import java.sql.DriverManager;
 import org.junit.Test;
 
 public class DBConnection {
-	
-	@Test
 	public static Connection getConnection() {
 		
 		try {
@@ -18,5 +16,14 @@ public class DBConnection {
 			System.out.println("DB 연결 실패 : " + e.getMessage());
 		}
 		return null;
+	}
+	
+	public static void main(String[] args) {
+		Connection c1 = getConnection();
+		Connection c2 = getConnection();
+		
+		System.out.println(c1);
+		System.out.println(c2);
+		
 	}
 }

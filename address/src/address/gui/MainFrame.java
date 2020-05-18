@@ -113,6 +113,53 @@ public class MainFrame extends JFrame {
 	
 	// 리스너 등록
 	private void initListener() {
+		
+		// 주소록 전체
+		homeButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				notifyUserList();
+			}
+		});
+		
+		// 친구
+		frButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				notifyUserList(GroupType.친구);
+			}
+		});
+		
+		// 회사
+		coButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				notifyUserList(GroupType.회사);
+			}
+		});
+		
+		// 학교
+		scButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				notifyUserList(GroupType.학교);
+			}
+		});
+		
+		// 가족
+		faButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				notifyUserList(GroupType.가족);
+			}
+		});
+		
+		
 		userList.addMouseListener(new MouseAdapter() {
 			
 			@Override
@@ -121,12 +168,12 @@ public class MainFrame extends JFrame {
 //				System.out.println(userList.getSelectedValue());
 				int memberId = MyStringParser.getId(userList.getSelectedValue().toString()); // 콤보박스 데이터 불러오는 방식 확인
 				new DetailFrame(mainFrame, memberId);
+				mainFrame.setVisible(false);
 			}
 			
 		});
 		
 		addButton.addActionListener(new ActionListener() {
-			
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -136,7 +183,7 @@ public class MainFrame extends JFrame {
 		});
 	}
 	
-	
+	// 전체 데이터 갱신
 	public void notifyUserList() {
 		// listModel을 비우기
 		listModel.clear();
@@ -144,11 +191,14 @@ public class MainFrame extends JFrame {
 		// List<Member>에 담기
 		// listModel을 채워주기(자동 갱신되기 때문에 강제로 갱신 안해도됨)
 		initData();
-		
 	}
 	
-	
+	// 그룹 데이터 갱신 
+	public void notifyUserList(GroupType groupType) {
+		listModel.clear();
+		List<Member> members = memberService.그룹목록(groupType);
+		for(Member member : members) {
+			listModel.addElement(member);
+		}
+	}
 }
-
-// 뭐 먹으러 가냐구 막걸리 먹고싶노 비도 오는데
-

@@ -88,7 +88,6 @@ public class AddFrame extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// 1 텍스트필드에 있는 값을 가져와야한다. // 2 값을 멤버에 담음
-				System.out.println(TAG+"addButton리스너 : "+tfName.getText());
 				Member member = Member.builder()
 						.name(tfName.getText())
 						.phone(tfPhone.getText())

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.Container"/>
 <fullyQualifiedTypeName name="javax.swing.JTextField"/>
 <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="address.utils.MyStringParser"/>
@@ -27,11 +26,9 @@
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
-<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.awt.TextField"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -42,15 +39,9 @@
 <fullyQualifiedTypeName name="lombok.Builder"/>
 <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
 <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
-<fullyQualifiedTypeName name="address.dao.MemberDao"/>
 <fullyQualifiedTypeName name="address.gui.AddFrame"/>
 <fullyQualifiedTypeName name="address.gui.DetailFrame"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="address.model.GroupType"/>
-<fullyQualifiedTypeName name="address.service.MemberService"/>
-<fullyQualifiedTypeName name="address.model.Member"/>
-<fullyQualifiedTypeName name="address.gui.MainFrame"/>
 <fullyQualifiedTypeName name="javax.swing.JPanel"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -58,6 +49,15 @@
 <fullyQualifiedTypeName name="LoginTest.Users"/>
 <fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="LoginTest.TestDB"/>
+<fullyQualifiedTypeName name="address.service.MemberService"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="address.gui.MainFrame"/>
+<fullyQualifiedTypeName name="address.model.GroupType"/>
+<fullyQualifiedTypeName name="address.dao.MemberDao"/>
+<fullyQualifiedTypeName name="address.model.Member"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="Tost"/>
 </qualifiedTypeNameHistroy>
