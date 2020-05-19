@@ -1,6 +1,5 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="db.beans.QueryBean"%>
-
 <%@ page contentType="text/html; charset=EUC-KR" pageEncoding = "EUC-KR" %>
 <jsp:useBean id = "QueryBean" scope="page" class= "db.beans.QueryBean" />
 <jsp:setProperty name = "QueryBean" property = "*"/>
@@ -11,18 +10,13 @@
 	
 	request.setCharacterEncoding("UTF-8");
 	
-	String userId = request.getParameter("user_id");
-	
-	// equest.getParameter("user_id") == null ? "" : request.getParameter("user_id").trim() 
-	// - 아이디가 널이면 길이0인 스트링을 넣고 아니면  공백을 제거한 아이디를 넣어라
-
 	QueryBean.getConnection();
 	
 	ArrayList<String> resArr = new ArrayList<>();
 	
 	try
 	{
-		resArr = QueryBean.getUserInfo(userId);
+		//resArr = QueryBean.getUserInfo();
 	}
 	catch(Exception e )
 	{
@@ -47,7 +41,7 @@
 	out.print("\"NAME\":\"" +         (String)resArr.get(1) + "\", ");
 	out.print("\"PHONE\":\"" +         (String)resArr.get(2) + "\", ");
 	out.print("\"GRADE\":\"" +         (String)resArr.get(3) + "\", ");
-	out.print("\"WRITE_TIME\":\"" +         (String)resArr.get(4) + "\" ");
+	out.print("\"WRITE_TIME\":\"" +         (String)resArr.get(4) + "\"");
 	out.print("} ");
 	for(int i =5; i <resArr.size(); i+=5)
 	{
@@ -57,7 +51,8 @@
 		out.print("   \"NAME\": \""    + (String)resArr.get(i+1) + "\" ,");
 		out.print("   \"PHONE\": \""    + (String)resArr.get(i+2) + "\" ,");
 		out.print("   \"GRADE\": \""    + (String)resArr.get(i+3) + "\" ,");
-		out.print("   \"WRITE_TIME\": \""    + (String)resArr.get(i+4) + "\" ");
+		out.print("   \"WRITE_TIME\": \""    + (String)resArr.get(i+4) + "\"");
+		
 		
 		out.print("}");
 	}
@@ -65,3 +60,13 @@
 	out.print("}");
 	}
 %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

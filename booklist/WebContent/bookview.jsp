@@ -4,8 +4,11 @@
 	String url = "jdbc:oracle:thin:@localhost:1521:xe";
 	Connection dbConn = DriverManager.getConnection(url, "c##madang", "c##madang");
 	Statement stmt = dbConn.createStatement();
+	
 	String bookid = request.getParameter("bookid");
+	
 	ResultSet myResultSet = stmt.executeQuery("SELECT * FROM book WHERE bookid=" +bookid);
+	
 	if(myResultSet != null){
 		myResultSet.next();
 %>

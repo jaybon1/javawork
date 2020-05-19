@@ -1,0 +1,2 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+{ "datas":[ {"ID":"brad", "NAME":"브래드핏", "PHONE":"011-8546-1456", "GRADE":"2", "WRITE_TIME":"2019-03-13 14:26:13"} ,{ "ID": "yoonbar" , "NAME": "윤요섭" , "PHONE": "010-9999-2146" , "GRADE": "3" , "WRITE_TIME": "2020-05-10 14:25:42"}]}

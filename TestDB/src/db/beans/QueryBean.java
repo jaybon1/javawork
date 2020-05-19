@@ -20,12 +20,10 @@ public class QueryBean {
 		try {
 			conn = DBConnection.getConnection();
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 		try {
 			stmt = conn.createStatement();		
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 	}
 	
@@ -34,19 +32,17 @@ public class QueryBean {
 			try {
 				stmt.close();
 			} catch (Exception e) {
-				// TODO: handle exception
 			}
 		}
 		if(conn != null) {
 			try {
 				conn.close();
 			} catch (Exception e) {
-				// TODO: handle exception
 			}
 		}
 	}
 	
-	public ArrayList<String> getUserInfo() throws Exception{ // ²©¼è
+	public ArrayList<String> getUserInfo(String id) throws Exception{
 		
 		StringBuffer sb = new StringBuffer();
 		
@@ -54,6 +50,7 @@ public class QueryBean {
 		sb.append(" U_ID, U_NAME, U_PHONE, U_GRADE, WRITE_TIME ");
 		sb.append(" FROM ");
 		sb.append(" USER_INFO_SAMPLE ");
+		sb.append(" WHERE U_ID LIKE '%"+ id +"%'");
 		sb.append(" ORDER BY ");
 		sb.append(" WRITE_TIME ");
 		
