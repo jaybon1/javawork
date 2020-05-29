@@ -14,7 +14,7 @@ public class SocketClient {
 
 	public SocketClient() {
 		try {
-			socket = new Socket("192.168.0.60", 20000); // 상대방의 아이피와 포트를 입력하고 변수에 저장
+			socket = new Socket("localhost", 20000); // 상대방의 아이피와 포트를 입력하고 변수에 저장
 			SocketThread st = new SocketThread(); // 소켓 연결을 유지할 스레드 생성
 			st.start(); // 스레드 시작
 

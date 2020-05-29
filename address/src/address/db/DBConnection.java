@@ -10,20 +10,16 @@ public class DBConnection {
 		
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "cos", "bitc5600");
+			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "c##madang", "c##madang");
 			return conn;
 		} catch (Exception e) {
 			System.out.println("DB 연결 실패 : " + e.getMessage());
+			e.printStackTrace();
 		}
 		return null;
 	}
 	
 	public static void main(String[] args) {
 		Connection c1 = getConnection();
-		Connection c2 = getConnection();
-		
-		System.out.println(c1);
-		System.out.println(c2);
-		
 	}
 }

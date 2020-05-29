@@ -7,7 +7,13 @@
 	
 	String bookid = request.getParameter("bookid");
 	
-	ResultSet myResultSet = stmt.executeQuery("SELECT * FROM book WHERE bookid=" +bookid);
+	ResultSet myResultSet;
+	
+	if(bookid == null){
+		myResultSet = stmt.executeQuery("SELECT * FROM book");
+	} else{
+		myResultSet = stmt.executeQuery("SELECT * FROM book WHERE bookid=" +bookid);
+	}
 	
 	if(myResultSet != null){
 		myResultSet.next();

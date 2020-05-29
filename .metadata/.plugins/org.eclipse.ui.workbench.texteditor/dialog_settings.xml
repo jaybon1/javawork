@@ -6,8 +6,12 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="input"/>
+		<item key="selection" value="45"/>
 		<list key="findhistory">
+			<item value="45"/>
+			<item value="1"/>
+			<item value="0"/>
+			<item value="46"/>
 			<item value="input"/>
 			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=utf-8&quot; pageEncoding=&quot;utf-8&quot;%&gt;"/>
 			<item value="test"/>
@@ -19,10 +23,6 @@
 			<item value="lblNewLabel_2"/>
 			<item value="lblNewLabel_1"/>
 			<item value="btnNewButton"/>
-			<item value="ystem"/>
-			<item value="system"/>
-			<item value="count"/>
-			<item value="c1.getHeight"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

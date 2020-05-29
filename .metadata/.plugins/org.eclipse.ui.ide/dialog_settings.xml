@@ -51,6 +51,7 @@
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.egit.feature:0.15.1.201806191431"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.4.201905300046"/>
+		<item value="org.telosys.tools.eclipse.feature:3.2.3.001"/>
 	</list>
 	<section name="ResourceNavigator">
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
@@ -61,6 +62,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\src\javawork\cookierun"/>
 			<item value="C:\Users\admin\Downloads\Java-Swing-Project-master\보글보글 프로그램\bubbleBobble"/>
 		</list>
 	</section>

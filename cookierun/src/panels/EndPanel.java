@@ -17,46 +17,47 @@ import javax.swing.SwingConstants;
 public class EndPanel extends JPanel {
 	
 	ImageIcon btn = new ImageIcon("img/end/button.png");
-	JButton endAcceptBtn;
-	JLabel titleLb;
-	JLabel scoreLb;
-	JLabel backImgLb;
+	JButton btnNewButton;
+	JLabel lblNewLabel_1;
+	JLabel lblNewLabel_2;
+	JLabel lblNewLabel;
+	
 	
 	private int resultScore;
 	
 	public void setResultScore(int resultScore) {
-		scoreLb.setText(resultScore+"");
+		lblNewLabel_2.setText(resultScore+"");
 	}
 
 	public EndPanel(Object o) {
-		// 확인 버튼
-		endAcceptBtn = new JButton(btn);
-		endAcceptBtn.setName("endAccept");
-		endAcceptBtn.addMouseListener((MouseListener) o);
-		endAcceptBtn.setBounds(550, 370, 199, 81);
-		endAcceptBtn.setBorderPainted(false);
-		endAcceptBtn.setFocusPainted(false);
-		endAcceptBtn.setContentAreaFilled(false);
-		add(endAcceptBtn);
+		//버튼
+		btnNewButton = new JButton(btn);
+		btnNewButton.setName("endAccept");
+		btnNewButton.addMouseListener((MouseListener) o);
+		btnNewButton.setBounds(550, 370, 199, 81);
+		btnNewButton.setBorderPainted(false);
+		btnNewButton.setFocusPainted(false);
+		btnNewButton.setContentAreaFilled(false);
+		add(btnNewButton);
 		
-		// 점수 글자 
-		titleLb = new JLabel("SCORE");	
-		titleLb.setHorizontalAlignment(SwingConstants.CENTER);
-		titleLb.setFont(new Font("Gill Sans Ultra Bold", Font.PLAIN, 37));
-		titleLb.setBounds(451, 0, 205, 55);
-		add(titleLb);
+		//점수 글자 
+		lblNewLabel_1 = new JLabel("SCORE");	
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1.setFont(new Font("Gill Sans Ultra Bold", Font.PLAIN, 37));
+		lblNewLabel_1.setBounds(451, 0, 205, 55);
+		add(lblNewLabel_1);
 		
-		scoreLb = new JLabel("0");
-		scoreLb.setHorizontalAlignment(SwingConstants.CENTER);
-		scoreLb.setFont(new Font("Harlow Solid Italic", Font.PLAIN, 49));
-		scoreLb.setBounds(313, 52, 459, 87);
-		add(scoreLb);
+		lblNewLabel_2 = new JLabel("0");
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_2.setFont(new Font("Harlow Solid Italic", Font.PLAIN, 49));
+		lblNewLabel_2.setBounds(313, 52, 459, 87);
+		add(lblNewLabel_2);
 		
-		backImgLb = new JLabel("");
-		backImgLb.setHorizontalAlignment(SwingConstants.RIGHT);
-		backImgLb.setBackground(SystemColor.activeCaptionText);
-		backImgLb.setIcon(new ImageIcon("img/end/cookierunbg.jpg"));
-		backImgLb.setBounds(0, 0, 784, 461);
-		add(backImgLb);
+		lblNewLabel = new JLabel("");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+		lblNewLabel.setBackground(SystemColor.activeCaptionText);
+		lblNewLabel.setIcon(new ImageIcon("img/end/cookierunbg.jpg"));
+		lblNewLabel.setBounds(0, 0, 784, 461);
+		add(lblNewLabel);
 	}
 }
